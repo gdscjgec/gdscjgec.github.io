@@ -2,108 +2,98 @@
 <br />
 <p align="center">
   <a href="https://github.com/gdscjgec">
-    <img src="" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/73106734/135297498-66a6a46a-a358-4cfa-be56-1ae1467a5e9b.png" alt="Logo" width="140" height="80">
   </a>
 
-  <h3 align="center">Project Name</h3>
+  <h3 align="center">GDSC JGEC Website</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
     <a href=""><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+<!--     <a href="">View Demo</a>
     ·
     <a href="">Report Bug</a>
     ·
-    <a href="">Request Feature</a>
+    <a href="">Request Feature</a> -->
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This is the first time we have GDSC in JGEC. Hence we will be building our official website to showcase all that awesome stuff that GDSC will be doing in future. 
+This is a beginner friendly project and we hope to build an amazing website from scratch.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sequi
-voluptate dicta id. Nulla recusandae voluptatem nostrum officiis, quaerat
-suscipit tempora ducimus, fuga iste eaque esse voluptate. Voluptatem,
-dolores quisquam.
+## Built With
 
-### Built With
+The tech stack we will be using:
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-- [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
-- [Laravel](https://laravel.com)
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Below are the steps to follow to contribute to this project:
 
-### Prerequisites
+**1.**  Fork [this](https://github.com/gdscjgec/gdscjgec.github.io) repository.   
 
-This is an example of how to list things you need to use the software and how to install them.
+**2.**  Clone your forked copy of the project.
+```
+git clone https://github.com/<your_user_name>/gdscjgec.github.io.git
+```
+where `your_user_name` is your GitHub username.
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+**3.** Navigate to the project directory :file_folder: .
+```
+cd gdscjgec.github.io
+```
+**4.** Add a reference(remote) to the original repository.
+```
+git remote add upstream https://github.com/gdscjgec/gdscjgec.github.io.git
+```
+**5.** Check the remotes for this repository.
+```
+git remote -v
+```
+**6.** Always take a pull from the upstream repository to your main branch to keep it at par with the main project(updated repository).
+```
+git pull upstream main
+```
+**7.** Create a new branch.
+```
+git checkout -b <your_branch_name>
+```
 
-### Installation
+**8.** Make necessary changes and commit those changes
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+**9.** Track your changes.
+```
+git add . 
+```
+**10.** Commit your changes .
+```
+git commit -m "Commit message"
+```
+**11.** Push the committed changes in your feature branch to your remote repo.
+```
+git push -u origin <your_branch_name>
+```
 
-<!-- USAGE EXAMPLES -->
+**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
 
-## Usage
+**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+**14.** Click on `Create Pull Request`.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+**15.** And you are done creating a pull request to this project. Be patient while we review your code and merge the changes.
 
 <!-- ROADMAP -->
 
@@ -111,18 +101,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/gdscjgec) for a list of proposed features (and known issues).
 
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch ( `git checkout -b feature/AmazingFeature` )
-3. Add your Changes ( `git add .` )
-4. Commit your Changes ( `git commit -m 'Add some AmazingFeature'` )
-5. Push to the Branch ( `git push origin feature/AmazingFeature` )
-6. Open a Pull Request
 
 <!-- LICENSE -->
 
