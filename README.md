@@ -1,8 +1,10 @@
+<div align="center"><a href="https://hacktoberfest.digitalocean.com/"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Banner" width="60%"/></a></div>
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/gdscjgec">
-    <img src="https://user-images.githubusercontent.com/73106734/135297498-66a6a46a-a358-4cfa-be56-1ae1467a5e9b.png" alt="Logo" width="140" height="80">
+    <img src="https://user-images.githubusercontent.com/73106734/135297498-66a6a46a-a358-4cfa-be56-1ae1467a5e9b.png" alt="Logo" width="400" height="250">
   </a>
 
   <h3 align="center">GDSC JGEC Website</h3>
