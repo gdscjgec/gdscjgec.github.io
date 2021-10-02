@@ -1,3 +1,13 @@
+@font-face {
+	font-family: "Product Sans Reg";
+	src: url("../fonts/Product_Sans_Regular.ttf")
+}
+
+@font-face {
+	font-family: "Product Sans Bold";
+	src: url("../fonts/Product_Sans_Bold.ttf")
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,11 +30,12 @@
 	width: 100%;
 	top: 0;
 	z-index: 999;
+  font-family: 'Product Sans Reg';
 	color: #000
 }
 
 .logo {
-	width: 27px;
+	width: 47px;
 	height: 27px;
 	font-size: 16px
 }
@@ -33,7 +44,7 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	width: 38%;
+	width: 31%;
 	margin-top: .1%;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
