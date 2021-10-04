@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  footer {
+    margin-top: 15px;
+    color: white;
+    background-color: #34a853;
+  }
+  
+  p {
+    /* font-size: medium; */
+    overflow-wrap: break-word;
+    width: auto;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .container {
+    padding-bottom: 1px;
+  }
+  .cnt {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  .main-div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+  
+  h3 {
+    padding: 5px;
+    text-shadow: 0px 1px rgb(8, 8, 8);
+    color: rgb(243, 221, 28);
+    text-align: center;
+  }
+  
+  .div1,
+  .div2 {
+    width: 40%;
+    font-size: 1.2em;
+    padding: 16px;
+    overflow-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 0.2px;
+  
+  }
+  
+  li {
+    padding: 2px;
+  }
+  
+  li:hover {
+    font-size: larger;
+    transition: font-size 1s;
+  }
+  
+  .div1 {
+    width: 60%;
+    text-align: justify;
+    text-justify: inter-word;
+    /* width: 30%; */
+  }
+  .img2 {
+    /* width:100%;  */
+    height: 20vw;
+    max-height: 200px;
+    margin-top: 28px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 70px; */
+  }
+
+  @media (max-width: 1168px) {
+    .div1,
+    .div2 {
+      font-size: 1em;
+      word-spacing: 2px;
+    }
+    .img2 {
+      margin-top: 12px;
+      height: 16vw;
+      min-height: 70px;
+      transition: height 2s ;
+    }
+  }
+  @media (max-width: 750px) {
+    .img2 {
+      margin-top: 70px;
+      height: 12vw;
+      min-height: 120px;
+    }
+  }
+  @media (max-width: 370px) {
+    .img2 {
+      margin-top: 15px;
+    }
+    .cnt {
+      width: 100%;
+    }
+  }
+  hr {
+    margin-left: 25%;
+  }
+  
+  .btm {
+    margin-left: 29%;
+  }
+  
+  .nxtdiv {
+    text-align: center;
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .i1,
+  .i2,
+  .i3,
+  .i4,
+  .i5,
+  .i6 {
+    font-size: 3vw;
+    color: white;
+  }
+  
+  .i1:hover,
+  .i2:hover,
+  .i3:hover,
+  .i4:hover,
+  .i5:hover,
+  .i6:hover {
+    font-size: 2.1vw;
+    transition: font-size 1s;
+    /* background-color: #7bcf92; */
+    color: #04571a;
+  }
