@@ -56,10 +56,11 @@
   
   li {
     padding: 2px;
+    /* font-size: 2vw; */
   }
   
   li:hover {
-    font-size: larger;
+    font-size: 1.3em;
     transition: font-size 1s;
   }
   
@@ -79,35 +80,6 @@
     align-items: center;
     /* min-height: 70px; */
   }
-
-  @media (max-width: 1168px) {
-    .div1,
-    .div2 {
-      font-size: 1em;
-      word-spacing: 2px;
-    }
-    .img2 {
-      margin-top: 12px;
-      height: 16vw;
-      min-height: 70px;
-      transition: height 2s ;
-    }
-  }
-  @media (max-width: 750px) {
-    .img2 {
-      margin-top: 70px;
-      height: 12vw;
-      min-height: 120px;
-    }
-  }
-  @media (max-width: 370px) {
-    .img2 {
-      margin-top: 15px;
-    }
-    .cnt {
-      width: 100%;
-    }
-  }
   hr {
     margin-left: 25%;
   }
@@ -119,8 +91,11 @@
   .nxtdiv {
     text-align: center;
     margin: 2%;
+    margin-left: 2vw;
     display: flex;
     flex-wrap: wrap;
+    /* flex-direction: column; */
+    overflow-wrap: break-word;
   }
   
   .i1,
@@ -129,7 +104,8 @@
   .i4,
   .i5,
   .i6 {
-    font-size: 3vw;
+   
+    font-size: 3em;
     color: white;
   }
   
@@ -139,8 +115,56 @@
   .i4:hover,
   .i5:hover,
   .i6:hover {
-    font-size: 2.1vw;
+    font-size: 1.5em;
     transition: font-size 1s;
     /* background-color: #7bcf92; */
     color: #04571a;
+  }
+  @media (max-width:3000px) {
+    .btm{
+      margin-left: 38%;
+    }
+  }
+  @media (max-width: 1168px) {
+    .div1,
+    .div2 {
+      font-size: 1em;
+      word-spacing: 2px;
+    }
+    .img2 {
+      margin-top: 15%;
+      height: 16vw;
+      min-height: 70px;
+    }
+  }
+  @media (max-width:800px) {
+    .img2{
+      margin-top: 25%;} 
+  }
+  @media  (max-width:750px) {
+    .cnt{
+      width:100%;
+      flex-direction: column;
+    }
+    .div1,.div2{
+      width:100%;
+    }
+    .imgdiv{
+      width:100%;
+      text-align: center;
+    }
+    .img2{
+      margin-left: 8%;
+      margin-top: 12px;
+      height:22vw;
+      min-height: 100px;
+    }
+  }
+  @media (max-width:500px) {
+    i{
+      margin-left: 9px;
+    }
+    .btm{
+      margin-left: 23%;
+    }
   }
