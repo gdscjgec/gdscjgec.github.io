@@ -27,6 +27,8 @@
     <!-- Icon CDN Link 1 -->
     <!-- Icon CDN Link 2 -->
 
+    <!-- Fonts (Don't import fonts here, Import in settings.css) -->
+
     <!-- Address Bar/Tab Color -->
     <!-- Mobile -->
     <meta name="theme-color" content="#FFFFFF">
@@ -37,66 +39,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" />
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/settings.css" />
+    <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/events.css" />
-    <script src="/script.js" defer></script>
 
     <!-- External JS -->
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="/js/script.js"></script>
 
 </head>
 
 <body>
-    <!--
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="../assets/gdsc.png" alt="logo" height='50px' class="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/pages/events.html">Events</a>
-                    </li>
-                </ul>
-                <form class="d-flex" style='float: right;'>
-                     <img src="../assets/gdsc_emb.jpeg" height="100px" alt="brand" class="brand"> 
-                    <h6>Google Developer Student Club</h6>
-                </form>
-            </div>
+
+    <!-- navigation bar starts -->
+    <nav class="navbar">
+        <div class="brand-title">
+            <img src="/assets/logo.png" alt="Logo" height="50px" class="d-inline-block align-text-center">
+            <img src="/assets/img/name_logo.png" alt=" Name Logo" height="50px" class="d-inline-block align-text-center">
+        </div>
+
+        <!--toggle button-->
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="/pages/home.html"><b>Home</b></a></li>
+                <li><a href="/pages/events.html"><b>Events</b></a></li>
+                <li><a href="/pages/blogs.html"><b>Blogs</b></a></li>
+                <li><a href="/pages/team.html"><b>Team</b></a></li>
+                <li><a href="/pages/contact.html"><b>Contact Us</b></a></li>
+            </ul>
         </div>
     </nav>
-    -->
-
-	 <!-- navigation bar starts -->
-     <nav class="navbar">
-		<div class="brand-title">
-			<img src="/assets/logo.png" alt="Logo" height="50px" class="d-inline-block align-text-center">
-			<img src="/assets/Name logo.png" alt=" Name Logo"  height="50px" class="d-inline-block align-text-center">
-		</div>
-
-		<!--toggle button-->
-		<a href="#" class="toggle-button">
-			<span class="bar"></span>
-			<span class="bar"></span>
-			<span class="bar"></span>
-		</a>
-		<div class="navbar-links">
-			<ul>
-			  <li><a href="/index.html"><b>Home</b></a></li>
-			  <li><a href="/pages/events.html"><b>Events</b></a></li>
-			  <li><a href="/pages/blogs.html"><b>Blogs</b></a></li>
-			  <li><a href="/pages/team.html"><b>Team</b></a></li>
-			  <li><a href="/pages/contact.html"><b>Contact Us</b></a></li>
-			</ul>
-		  </div>
-	</nav>
     <!--navigation bar ends -->
 
 
@@ -105,7 +82,7 @@
         <div class="cards">
             <section class="eventCard">
                 <div class='eventImage '>
-                    <img src="../assets/gdsc_emb.jpeg">
+                    <img src="../assets/img/gdsc_emb.jpeg">
                 </div>
                 <div class="eventStat">
                     <h4>Event Heading</h4>
@@ -123,7 +100,7 @@
             </section>
             <section class="eventCard">
                 <div class='eventImage '>
-                    <img src="../assets/gdsc_emb.jpeg">
+                    <img src="../assets/img/gdsc_emb.jpeg">
                 </div>
                 <div class="eventStat">
                     <h4>Event Heading</h4>
@@ -137,7 +114,7 @@
             </section>
             <section class="eventCard">
                 <div class='eventImage '>
-                    <img src="../assets/gdsc_emb.jpeg">
+                    <img src="../assets/img/gdsc_emb.jpeg">
                 </div>
                 <div class="eventStat">
                     <h4>Event Heading</h4>
@@ -155,7 +132,7 @@
             </section>
             <section class="eventCard">
                 <div class='eventImage '>
-                    <img src="../assets/gdsc_emb.jpeg">
+                    <img src="../assets/img/gdsc_emb.jpeg">
                 </div>
                 <div class="eventStat">
                     <h4>Event Heading</h4>
@@ -169,7 +146,7 @@
             </section>
             <section class="eventCard">
                 <div class='eventImage '>
-                    <img src="../assets/gdsc_emb.jpeg">
+                    <img src="../assets/img/gdsc_emb.jpeg">
                 </div>
                 <div class="eventStat">
                     <h4>Event Heading</h4>
@@ -185,7 +162,7 @@
                     </p>
                 </div>
             </section>
-            
+
         </div>
     </div>
     <div class="past">
@@ -193,10 +170,11 @@
         <div class="cards">
             <section class="eventCard">
                 <div class='eventImage '>
-                    <img src="../assets/thumbnail.jpg">
+                    <img src="../assets/img/thumbnail.jpg">
                 </div>
                 <div class="eventStat">
-                    <h4>Event Heading  <a style="text-decoration: none;" target="_blank" href="https://www.youtube.com/watch?v=ufeZTc8LA6Q"> &#9741;</a></h4>
+                    <h4>Event Heading <a style="text-decoration: none;" target="_blank"
+                            href="https://www.youtube.com/watch?v=ufeZTc8LA6Q"> &#9741;</a></h4>
                     <h7>Date start- end --- Event Location</h7>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quod optio ad officiis
                         reiciendis
@@ -213,10 +191,11 @@
             </section>
             <section class="eventCard">
                 <div class='eventImage '>
-                    <img src="../assets/thumbnail.jpg">
+                    <img src="../assets/img/thumbnail.jpg">
                 </div>
                 <div class="eventStat">
-                    <h4>Event Heading    <a style="text-decoration: none;" target="_blank" href="https://www.youtube.com/watch?v=ufeZTc8LA6Q"> &#9741;</a></h4>
+                    <h4>Event Heading <a style="text-decoration: none;" target="_blank"
+                            href="https://www.youtube.com/watch?v=ufeZTc8LA6Q"> &#9741;</a></h4>
                     <h7>Date start- end --- Event Location</h7>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quod optio ad officiis
                         reiciendis
@@ -229,7 +208,7 @@
             </section>
         </div>
     </div>
-    
+
 </body>
 
 </html>
