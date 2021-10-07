@@ -25,6 +25,7 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#file-structure">File Structure</a></li>
+        <li><a href="#before-you-start"> Before You Start</a></li>
       </ul>
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
@@ -50,7 +51,6 @@ The tech stack we will be using:
 -   JavaScript
 -   Bootstrap
 
-
 <!-- USAGE EXAMPLES -->
 
 ## File Structure
@@ -71,8 +71,15 @@ The tech stack we will be using:
   ├── index.html              main page of the website.
 ```
 
----
+<!-- NOTE -->
 
+## Before You Start
+
+-   Always maintain the **file format & folder structure.**
+-   Maintain proper file names (i.e, for images).
+-   Don't use capital or spaces for files names instead use `_` or `-`.
+
+---
 
 <!-- GETTING STARTED -->
 
