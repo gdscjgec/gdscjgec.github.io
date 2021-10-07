@@ -63,6 +63,28 @@
   border-radius: 10px;
 }   
 
+@media (max-width: 470px){
+  .brand-title img{
+    padding-left: 0px;
+    margin-left: 0px;
+    width:40%;
+  }
+
+  .toggle-button {
+    margin-right: 1px;
+    display: flex;
+  }
+ 
+
+  .navbar{
+    width:100%;
+  }
+  
+  .navbar-links ul {
+    width: 80%;
+    flex-direction: column;
+  }
+}
 
 @media (max-width: 904px){
   .navbar {
@@ -84,7 +106,7 @@
 
 .navbar-links ul {
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
   }
 
 .navbar-links ul li {
