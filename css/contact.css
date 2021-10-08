@@ -46,12 +46,12 @@ li,ul{
 .contact-left{
     background:#fff;
     flex-basis: 60%;
-    padding: 40px 60px;
+    padding: 30px 30px;
 }
 .contact-right{
     background:#4086f4;
     flex-basis: 40%;
-    padding: 40px 60px;
+    padding: 30px 30px;
 }
 .contact-right h3{
     color:#E8F1FE;
@@ -69,6 +69,18 @@ li,ul{
 }
 .row .input-group input{
     width: 100%;
+    line-height: 30px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+.row .input-data{
+    flex-basis: 100%;
+}
+.row .input-data input{
+    width: 100%;
+    line-height: 30px;
     font-size: 15px;
     border: none;
     outline: none;
