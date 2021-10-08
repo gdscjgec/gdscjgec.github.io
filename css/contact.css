@@ -37,6 +37,8 @@ li,ul{
     padding-bottom: 110px;
 }
 .contact-box{
+    max-width: 100rem;
+    margin: 0 auto;
     background-color:#fff;
     display: flex; 
     box-shadow:0 0 15px 5px rgba(0,0,0,0.1);
@@ -52,8 +54,8 @@ li,ul{
     padding: 40px 60px;
 }
 .contact-right h3{
-    color:#fbbd00;
-    font-size: 25px;
+    color:#E8F1FE;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -70,18 +72,19 @@ li,ul{
     font-size: 15px;
     border: none;
     outline: none;
-    border-bottom: 1px solid #4086f4;
+    border-bottom: 2px solid rgba(0,0,0, 0.12);
 }
 textarea{
     width: 100%;
+    padding: 1em;
     font-size: 15px;
     outline: none;
-    border: 1px solid #4086f4;
+    border: 2px solid rgba(0,0,0, 0.12);
 }
 label{
     margin-bottom: 7px;
     display: flex;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     color: #4086f4;
 }
@@ -90,7 +93,7 @@ button{
     outline: none;
     width: 100px;
     background-color: #4086f4;
-    font-size: 15px;
+    font-size: 18px;
     color: #fff;
     margin-top: 10px;
     padding: 10px;
@@ -101,25 +104,25 @@ button:hover{
     transition:  all 0.3s linear;
 }
 table tr td{
-    color: #fbbd00;
-    font-size: 15px;
+    color: #D0E2FC;
+    font-size: 18px;
     padding-top: 30px;
     min-width: 30px;
     vertical-align: top;
+    line-height: 30px;
 }
 table tr td a{
     text-decoration: none;
     margin-right: 5px;
-
 }
 table tr td a i{
-    color: #eb4132;
-    font-size: 20px;
-    margin-right: 5px;
+    color: #E8F1FE;
+    font-size: 25px;
+    margin-right: 7px;
     margin-top: 15px;
 }
 table tr td a i:hover{
-    color: #D52415;
+    color: #B8D2FB;
     transition:  all 0.3s linear;
 }
 
