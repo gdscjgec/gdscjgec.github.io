@@ -14,8 +14,9 @@
 
     1. Always create your respective stylesheets css files for stylings.
     2. Don't use any other values of color or font family rather than this one.
-    3. We have created custom option for just in case if only required.
-    4. You are requested to avoid using "settings.css" & "style.css" for editing.
+    3. Also included one special font for highlightings headings.
+    4. We have created custom option for just in case if only required.
+    5. You are requested to avoid using "settings.css" & "style.css" for editing.
 
 
     ************ Font Rules for Responsive: ************
@@ -83,8 +84,9 @@ body {
     /* Default Colors */
     --darkblack: #3c434e;
     --lightblack: #495464;
+    --offblack: #32456b;
     --darkwhite: #ffffff;
-    --lightwhite: #f1f6f9;
+    --lightwhite: #f7fafc;
     --lightgrey: #9ba4b4;
     --darkgrey: #787a91;
 
@@ -155,11 +157,11 @@ a.btn:focus {
 
 /* **************************** Custom Fonts (Just in Case) **************************** */
 
-/*
+/* We have included one font for special headings. */
+
 @font-face {
-    font-family: '';
-    src: url();
+    font-family: 'Aware';
+    src: url(../assets/fonts/Aware.ttf);
 }
-*/
 
 /* **************************** Styles End **************************** */
