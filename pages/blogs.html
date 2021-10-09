@@ -52,28 +52,32 @@
 <body>
 
 	<!-- navigation bar starts -->
-	<nav class="navbar">
-		<div class="brand-title">
-			<img src="/assets/logo.png" alt="Logo" height="50px" class="d-inline-block align-text-center">
-			<img src="/assets/img/name_logo.png" alt=" Name Logo" height="50px" class="d-inline-block align-text-center">
-		</div>
-
-		<!--toggle button-->
-		<a href="#" class="toggle-button">
-			<span class="bar"></span>
-			<span class="bar"></span>
-			<span class="bar"></span>
-		</a>
-		<div class="navbar-links">
-			<ul>
-				<li><a href="/pages/home.html"><b>Home</b></a></li>
-				<li><a href="/pages/events.html"><b>Events</b></a></li>
-				<li><a href="/pages/blogs.html"><b>Blogs</b></a></li>
-				<li><a href="/pages/team.html"><b>Team</b></a></li>
-				<li><a href="/pages/contact.html"><b>Contact Us</b></a></li>
-			</ul>
-		</div>
-	</nav>
+	<!-- navigation bar starts -->        
+    <div class="topnav" id="myTopnav">
+        <div class="brand-title topBotomBordersOut container">
+            <img src="../assets/logo.png" alt="Logo" height="50px" class="d-inline-block align-text-center image">
+            <img src="../assets/img/name_logo.png" alt=" Name Logo" height="50px" class="d-inline-block align-text-center">
+            <a href="./contact.html"><b>Contact Us</b></a>
+            <a href="./team.html"><b>Team</b></a>
+            <a href="./blogs.html"><b class="highlight">Blogs</b></a>
+            <a href="./events.html"><b>Events</b></a>
+            <a href="./home.html"><b>Home</b></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <!--navigation bar ends -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 	<!--navigation bar ends -->
 
 </body>
