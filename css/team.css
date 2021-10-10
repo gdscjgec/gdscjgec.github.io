@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -16,13 +19,14 @@
   .heading{
     display: flex;
     justify-content: center;
-    font-size: 4.75rem;
+    font-size: 5rem;
     text-align: center;
     margin-bottom: 2rem;
-    font-family: 'Fira Sans', serif;
+    font-family: 'Andada Pro', serif;
+    font-weight: 700;
   }
   .meet span,.our span,.team span{
-    margin: 0 0.2rem;
+    margin: 0 0.1rem;
   }
   .heading-text{
     display: flex;
@@ -70,7 +74,7 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
-      font-family: 'Noto', serif;
+      font-family: 'Noto Sans Display', sans-serif;
   }
   .lead-name{
     font-size: 3.2rem;
@@ -88,7 +92,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-weight: 600;
+    font-weight: 500;
     transform: perspective(600px) rotateY(180deg);
     transition: transform 500ms ease;
     font-family: 'Poppins', sans-serif;
@@ -104,8 +108,9 @@
     justify-content: space-evenly;
   }
   .core-team-heading,.extended-core-team-heading{
-    font-family: 'Fira Sans', serif;
-    font-size: 2.5rem;
+    font-family: 'Noto Serif', serif;
+    font-size: 4.75rem;
+    font-weight: 700;
     margin: 3.2rem auto;
     color: transparent;
     text-align: center;
@@ -130,8 +135,8 @@
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    width: 24rem;
-    height: 25rem;
+    width: 28rem;
+    height: 29rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -154,7 +159,7 @@
     transform: perspective(600px) rotateY(0deg)
   }
   .back{
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -194,7 +199,7 @@
     box-shadow: 2px 2px 3px 3px var(--clr-red);
   }
   .member img{
-    height: 13rem;
+    aspect-ratio: 1;
     width: 13rem;
     border-radius: 50%;
   }
@@ -205,16 +210,16 @@
     align-items: center;
   }
   .member-name{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 600;
     color: rgb(59, 58, 58);
     text-align: center;
-    font-family: 'Noto', serif;
+    font-family: 'Noto Sans Display', sans-serif;
   }
   .member-des{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     text-align: center;
-    font-family: 'Noto', serif;
+    font-family: 'Noto Sans Display', sans-serif;
   }
   .social{
     width: 100%;
@@ -249,17 +254,34 @@
        height: 35rem;
      }
   }
+  @media(max-width:400px){
+     .lead:hover{
+       height: 50rem;
+       width: 85%;
+     }
+     .member:hover{
+       height: 38rem;
+     }
+  }
+  @media(max-width:310px){
+    .lead:hover{
+      height: 60rem;
+    }
+  }
   @media(min-width:614px) and (max-width: 1000px){
-     .lead{
-       height: 25rem;
+     .lead:hover{
+       height: 30rem;
      }
      .member:hover{
        height: 35rem;
      }
   }
-  @media(min-width:1036px){
+  @media(min-width:1023px){
     .member{
-      height: 26rem;
-      width: 28rem;
+      height: 28rem;
+      width: 29rem;
+    }
+    .lead:hover{
+      height: 27rem;
     }
   }
