@@ -21,20 +21,21 @@ body {
   padding: 20px;
   margin-top: 2%;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: bold;
   font-size: 30px;
 }
 .eventCard {
   width: 60vw;
   min-height: 40vh;
   height: fit-content;
-  background-color: rgba(56, 247, 110, 0.5);
+  background-color: #14B25F;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 10px;
   transition: transform 0.2s;
   border-radius: 20px;
-  /* opacity: 0.2; */
+ /* opacity: 0.2;*/
+ text-align: left;
   min-width: 40vh;
   display: flex;
   flex-direction: row;
@@ -105,7 +106,8 @@ body {
   /* line-height: normal; */
 }
 .eventStat:nth-child(even) p {
-  text-align: center;
+  text-align:left;
+  /*text-align: center;*/
   margin-top: 10%;
   font-size: 13px;
   padding-left: 30px;
@@ -122,7 +124,8 @@ body {
   text-align: right;
 }
 .past .eventCard{
-  background-color: #e0e75f58;
+ /* background-color: #e0e75f58;*/ 
+  background-color: #FFCD55;
 }
 .past .eventCard:nth-child(odd) .eventImage {
   width: 500px;
