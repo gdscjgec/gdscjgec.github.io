@@ -21,7 +21,7 @@
 }
 
 .landing-right {
-    min-width: 350px;
+    min-width: 320px;
     margin: 60px 20px;
     display: flex;
     flex: 0.4;
@@ -57,3 +57,9 @@
     50%  { transform: translate(0, 15px); } 
     100%   { transform: translate(0, -0px); }     
 } 
+
+@media (min-width: 768px) {
+    .landing-right {
+        width: 100% !important;
+    }    
+}

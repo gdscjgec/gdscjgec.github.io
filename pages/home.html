@@ -58,7 +58,7 @@
     <!-- navigation bar starts -->
     <div class="topnav" id="myTopnav">
         <div class="brand-title topBotomBordersOut container">
-            <img src="../assets/logo.png" alt="Logo" height="50px" class="d-inline-block align-text-center image">
+            <img src="../assets/logo.png" alt="Logo" height="30px" class="d-inline-block align-text-center image">
             <img src="../assets/img/name_logo.png" alt=" Name Logo" height="50px"
                 class="d-inline-block align-text-center">
             <a href="./contact.html"><b>Contact Us</b></a>
@@ -88,8 +88,12 @@
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
+                var btn = document.getElementsByClassName("fa-bars")[0];
+                btn.className = "fas fa-times"
                 x.className += " responsive";
             } else {
+                var btn = document.getElementsByClassName("fa-times")[0];
+                btn.className = "fa fa-bars"
                 x.className = "topnav";
             }
         }

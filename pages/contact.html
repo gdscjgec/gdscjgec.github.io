@@ -52,12 +52,13 @@
 
 <body>
     <!-- navigation bar starts -->
-    <!-- navigation bar starts -->        
+    <!-- navigation bar starts -->
     <div class="topnav" id="myTopnav">
         <div class="brand-title topBotomBordersOut container">
-            <img src="../assets/logo.png" alt="Logo" height="50px" class="d-inline-block align-text-center image">
-            <img src="../assets/img/name_logo.png" alt=" Name Logo" height="50px" class="d-inline-block align-text-center">
-            <a href="./contact.html" ><b class="highlight">Contact Us</b></a>
+            <img src="../assets/logo.png" alt="Logo" height="30px" class="d-inline-block align-text-center image">
+            <img src="../assets/img/name_logo.png" alt=" Name Logo" height="50px"
+                class="d-inline-block align-text-center">
+            <a href="./contact.html"><b class="highlight">Contact Us</b></a>
             <a href="./team.html"><b>Team</b></a>
             <a href="./blogs.html"><b>Blogs</b></a>
             <a href="./events.html"><b>Events</b></a>
@@ -72,8 +73,12 @@
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
+                var btn = document.getElementsByClassName("fa-bars")[0];
+                btn.className = "fas fa-times"
                 x.className += " responsive";
             } else {
+                var btn = document.getElementsByClassName("fa-times")[0];
+                btn.className = "fa fa-bars"
                 x.className = "topnav";
             }
         }
@@ -93,55 +98,56 @@
 
                 <!-- left section -->
                 <div class="contact-left">
-                   <form>
-                      <div class="row">
-                         <div class="input-group">
-                            <label>Name</label>
-                            <input type="text" name="" required>
-                         </div>
-                         <div class="input-group">
-                           <label>Email</label>
-                           <input type="text" name="" required>
+                    <form>
+                        <div class="row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" name="" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="text" name="" required>
+                            </div>
                         </div>
-                      </div>
-                      <div class="row">
-                         <div class="input-data">
-                            <label>Subject</label>
-                            <input type="text" name="" required>
-                         </div>
-                      </div>
-                      <label>Message</label>
-                      <textarea rows="5" required></textarea>
-                      <button>Send</button>
-                   </form>
+                        <div class="row">
+                            <div class="input-data">
+                                <label>Subject</label>
+                                <input type="text" name="" required>
+                            </div>
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" required></textarea>
+                        <button>Send</button>
+                    </form>
                 </div>
 
                 <!-- right section -->
                 <div class="contact-right">
-                   <h3>Contact Info</h3>
-                   <table>
-                      <tr>
-                         <td> <i class="fa fa-envelope"></i></td>
-                         <td>gdsc@jgec.ac.in</td>
-                      </tr>
-                      <tr>
-                         <td> <i class="fa fa-map-marker"></i></td>
-                         <td>
-                            Jalpaiguri Government Engineering College,<br>
-                            Jalpaiguri, West Bengal 735102, India
-                         </td>
-                      </tr>
-                      <tr>
-                         <td></td>
-                         <td> 
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/company/gdscjgec"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://discord.gg/eZ4BEkFd"><i class="fab fa-discord"></i></a>
-                            <a href="https://github.com/gdscjgec"><i class="fab fa-github"></i></a>
-                         </td>
-                      </tr>
-                   </table>
+                    <h3>Contact Info</h3>
+                    <table>
+                        <tr>
+                            <td> <i class="fa fa-envelope"></i></td>
+                            <td>gdsc@jgec.ac.in</td>
+                        </tr>
+                        <tr>
+                            <td> <i class="fa fa-map-marker"></i></td>
+                            <td>
+                                Jalpaiguri Government Engineering College,<br>
+                                Jalpaiguri, West Bengal 735102, India
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/company/gdscjgec"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a href="https://discord.gg/eZ4BEkFd"><i class="fab fa-discord"></i></a>
+                                <a href="https://github.com/gdscjgec"><i class="fab fa-github"></i></a>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
 
             </div>
