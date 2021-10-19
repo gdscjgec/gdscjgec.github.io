@@ -71,13 +71,17 @@
 	<!--navigation bar ends -->
 	<script>
 		function myFunction() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "topnav") {
-				x.className += " responsive";
-			} else {
-				x.className = "topnav";
-			}
-		}
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                var btn = document.getElementsByClassName("fa-bars")[0];
+                btn.className = "fas fa-times"
+                x.className += " responsive";
+            } else {
+                var btn = document.getElementsByClassName("fa-times")[0];
+                btn.className = "fa fa-bars"
+                x.className = "topnav";
+            }
+        }
 	</script>
 	<!--navigation bar ends -->
 

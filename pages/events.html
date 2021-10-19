@@ -72,8 +72,12 @@
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
+                var btn = document.getElementsByClassName("fa-bars")[0];
+                btn.className = "fas fa-times"
                 x.className += " responsive";
             } else {
+                var btn = document.getElementsByClassName("fa-times")[0];
+                btn.className = "fa fa-bars"
                 x.className = "topnav";
             }
         }
