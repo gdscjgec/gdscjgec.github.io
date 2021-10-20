@@ -127,15 +127,15 @@ body {
     background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--darkblack);
-    border-radius: 4px;
+    background: var(--lightblack);
+    border-radius: 2px;
 }
 
 /* **************************** Selection **************************** */
 
 ::selection {
     color: var(--darkwhite);
-    background: var(--darkblack);
+    background: var(--primaryyellow);
 }
 
 /* **************************** User Select None **************************** */

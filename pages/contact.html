@@ -24,8 +24,7 @@
     <meta property="og:image" content="https://gdscjgec.github.io/assets/opengraph.png" />
 
     <!-- Icons -->
-    <!-- Icon CDN Link 1 -->
-    <!-- Icon CDN Link 2 -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" />
 
     <!-- Fonts (Don't import fonts here, Import in settings.css) -->
 
@@ -40,7 +39,7 @@
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="../css/settings.css" />
-    <link rel="stylesheet" href="../css/header.css" />
+    <!-- <link rel="stylesheet" href="../css/header.css" /> -->
     <link rel="stylesheet" href="../css/contact.css" />
 
     <!-- External JS -->
@@ -85,74 +84,70 @@
     </script>
     <!--navigation bar ends -->
 
-    <section class="contact-page-section">
-        <div class="container">
-            <img src="https://user-images.githubusercontent.com/73106734/135297498-66a6a46a-a358-4cfa-be56-1ae1467a5e9b.png"
-                alt="Logo" width="100" height="60">
-            <div class="sec-title">
-                <div class="title">Contact Us</div>
+    <!-- Contact Start -->
+    <section id="contact">
+        <div class="container contact">
+
+            <div class="contact_title">
+                <h1>Contact Us</h1>
                 <h2>Let's Get in Touch.</h2>
             </div>
 
-            <div class="contact-box">
-
-                <!-- left section -->
-                <div class="contact-left">
+            <div class="contact_form row">
+                <div class="col-md-7 form">
                     <form>
-                        <div class="row">
-                            <div class="input-group">
-                                <label>Name</label>
-                                <input type="text" name="" required>
-                            </div>
-                            <div class="input-group">
-                                <label>Email</label>
-                                <input type="text" name="" required>
-                            </div>
+                        <div class="input-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="Name" id="name" placeholder=" " required />
                         </div>
-                        <div class="row">
-                            <div class="input-data">
-                                <label>Subject</label>
-                                <input type="text" name="" required>
-                            </div>
+
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="text" name="Email" id="email" placeholder=" " required />
                         </div>
-                        <label>Message</label>
-                        <textarea rows="5" required></textarea>
-                        <button>Send</button>
+
+                        <div class="input-group">
+                            <label for="sub">Subject</label>
+                            <input type="text" name="Subject" id="sub" placeholder=" " required />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="msg">Message</label>
+                            <textarea name="Message" id="msg" placeholder=" " rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">Send Message</button>
                     </form>
                 </div>
 
-                <!-- right section -->
-                <div class="contact-right">
-                    <h3>Contact Info</h3>
-                    <table>
-                        <tr>
-                            <td> <i class="fa fa-envelope"></i></td>
-                            <td>gdsc@jgec.ac.in</td>
-                        </tr>
-                        <tr>
-                            <td> <i class="fa fa-map-marker"></i></td>
-                            <td>
-                                Jalpaiguri Government Engineering College,<br>
-                                Jalpaiguri, West Bengal 735102, India
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.linkedin.com/company/gdscjgec"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <a href="https://discord.gg/eZ4BEkFd"><i class="fab fa-discord"></i></a>
-                                <a href="https://github.com/gdscjgec"><i class="fab fa-github"></i></a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+                <div class="col-md-5 follow">
+                    <h3>Follow Us</h3>
 
+                    <div class="contact_link">
+                        <a href="#">
+                            <i class="bx bxs-envelope"></i>
+                            <span>gdsc@jgec.ac.in</span>
+                        </a>
+                        <a href="#">
+                            <i class="bx bxs-map"></i>
+                            <span>JGEC, Jalpaiguri, WB 735102, India</span>
+                        </a>
+                    </div>
+
+                    <div class="social_link">
+                        <a href="#"><i class="bx bxl-discord-alt"></i></a>
+                        <a href="#"><i class="bx bxl-github"></i></a>
+                        <a href="#"><i class="bx bxl-linkedin"></i></a>
+                        <a href="#"><i class="bx bxl-youtube"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                    </div>
+
+                    <img src="../assets/img/mailbox.svg" alt="Mailbox Figure" class="img-fluid" />
+                </div>
             </div>
         </div>
     </section>
+    <!-- Contact End -->
 
 </body>
 
