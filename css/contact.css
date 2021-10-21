@@ -1,4 +1,4 @@
-/* ********************************* Contact ********************************* */
+/* ********************************* Contact Page Styles ********************************* */
 
 section#contact div.contact {
     position: relative;
@@ -119,7 +119,7 @@ div.contact div.contact_form .follow h3 {
 }
 
 div.contact div.contact_form .follow img {
-    margin: 0;
+    margin: 3rem 0;
     width: 60%;
     height: auto;
 }
@@ -127,7 +127,7 @@ div.contact div.contact_form .follow img {
 /* Contact Links */
 
 div.contact div.contact_form .follow .contact_link {
-    margin: 4rem 0;
+    margin: 3rem 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -162,7 +162,7 @@ div.contact div.contact_form .follow .contact_link a span {
 /* Social Links */
 
 div.contact div.contact_form .follow .social_link {
-    margin: 3rem 0;
+    margin: 2rem 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
