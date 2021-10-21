@@ -78,7 +78,7 @@ header nav div.navbar_menus a::after {
     position: absolute;
     bottom: 10%;
     left: 0;
-    height: 4px;
+    height: 3.5px;
     width: 100%;
     background: var(--primaryblue);
     border-radius: 1px;

@@ -115,7 +115,7 @@ body {
 */
 
 :root {
-    --customcolor: ;
+    --customcolor: #6f6bfa;
     --customfont: ;
 }
 
@@ -135,7 +135,7 @@ body {
 
 ::selection {
     color: var(--darkwhite);
-    background: var(--primaryyellow);
+    background: var(--customcolor);
 }
 
 /* **************************** User Select None **************************** */
