@@ -1,11 +1,9 @@
 // Navbar Toogle for All Pages ******************************
 
-const toggleButton = document.getElementsByClassName('toggle-button')[0];
-const navbarLinks = document.getElementsByClassName('navbar-links')[0];
+let menuBtn = document.querySelector('button.menu_toggle');
 
-toggleButton.addEventListener('click', () => {
-    console.log('hello');
-    navbarLinks.classList.toggle('active');
+menuBtn.addEventListener('click', () => {
+    menuBtn.classList.toggle('active');
 });
 
 // Add Your Scripts Here:

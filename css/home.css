@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* ********************************* Home Page Styles ********************************* */
 
 .landing-wrapper {
     display: flex;
@@ -38,28 +34,34 @@
     font-size: 40px;
     margin-top: 20px;
 }
-.landing-right>p {
+.landing-right > p {
     font-size: 20px;
     /* text-align: center; */
     margin: 20px 0;
 }
 
-.floating {   
-    animation-name: floating; 
-    animation-duration: 3s; 
-    animation-iteration-count: infinite; 
-    animation-timing-function: ease-in-out; 
-    margin-top: 40px; 
-} 
-  
-@keyframes floating { 
-    0% { transform: translate(0,  0px); } 
-    50%  { transform: translate(0, 15px); } 
-    100%   { transform: translate(0, -0px); }     
-} 
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 40px;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
 
 @media (min-width: 768px) {
     .landing-right {
         width: 100% !important;
-    }    
+    }
 }
