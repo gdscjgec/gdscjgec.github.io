@@ -1,297 +1,230 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* ********************************* Team Page Styles ********************************* */
+
+section#team div.team {
+    position: relative;
+    margin: 10rem auto;
+    padding: 2rem;
 }
-html {
-  font-size: 62.5%;
+
+div.team h1,
+div.team h2,
+div.team h3 {
+    margin: 1rem auto;
+    padding: 0.5rem 0 0.8rem;
+    position: relative;
+    width: fit-content;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: var(--primaryfont_serif);
+    color: var(--darkblack);
+    text-align: center;
+    letter-spacing: 0.5px;
+    border: none;
+    border-top: 4px solid var(--darkblack);
+    border-bottom: 4px solid var(--darkblack);
 }
-:root {
-  --clr-red: #db4437;
-  --clr-blue: #4285f4;
-  --clr-green: #0f9d58;
-  --clr-yellow: #f4b400;
+
+div.team h1 {
+    font-size: 4rem;
 }
-.heading {
-  display: flex;
-  justify-content: center;
-  font-size: 5rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  font-family: 'Andada Pro', serif;
-  font-weight: 700;
+div.team h2 {
+    font-size: 3.5rem;
 }
-.meet span,
-.our span,
-.team span {
-  margin: 0 0.1rem;
+div.team h3 {
+    font-size: 3rem;
 }
-.heading-text {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  justify-content: center;
+
+@media (max-width: 572px) {
+    div.team h1 {
+        font-size: 3.5rem;
+    }
+    div.team h2 {
+        font-size: 3rem;
+    }
+    div.team h3 {
+        font-size: 2.8rem;
+    }
 }
-.lead {
-  display: flex;
-  position: relative;
-  overflow: hidden;
-  padding: 0.25rem;
-  border-radius: 1rem;
-  width: 70%;
-  height: 19rem;
-  margin: auto;
-  transition: height 500ms ease;
-  box-shadow: 2px 2px 4px 4px var(--clr-blue);
-}
-.lead-front,
-.lead-back {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  backface-visibility: hidden;
-  position: absolute;
-  transition: transform 500ms ease;
-}
-.lead-front {
-  display: flex;
-  align-items: center;
-  transform: perspective(600px) rotateY(0deg);
-}
-.lead:hover .lead-front {
-  transform: perspective(600px) rotateY(-180deg);
-}
-.lead img {
-  aspect-ratio: 1;
-  width: 15rem;
-  border-radius: 50%;
-  margin: 1rem;
-}
-.lead-details {
-  display: flex;
-  margin-left: 1.65rem;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  font-family: 'Noto Sans Display', sans-serif;
-}
-.lead-name {
-  font-size: 3.2rem;
-  font-weight: 600;
-  text-align: center;
-}
-.lead-des {
-  font-size: 2rem;
-  font-weight: 400;
-  align-self: center;
-}
-.lead-back {
-  margin-top: 1rem;
-  font-size: 1.75rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-weight: 500;
-  transform: perspective(600px) rotateY(180deg);
-  transition: transform 500ms ease;
-  font-family: 'Poppins', sans-serif;
-}
-.lead:hover .lead-back {
-  transform: perspective(600px) rotateY(0deg);
-}
-.core-team,
-.extended-core-team {
-  display: flex;
-  gap: 3rem;
-  margin: auto 1.75rem;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.core-team-heading,
-.extended-core-team-heading {
-  font-family: 'Noto Serif', serif;
-  font-size: 4.75rem;
-  font-weight: 700;
-  margin: 3.2rem auto;
-  color: transparent;
-  text-align: center;
-  -webkit-background-clip: text; /* "-webkit-" for chrome */
-  background-image: linear-gradient(to right, var(--clr-red), var(--clr-blue));
-  animation: txt-animation 3s alternate infinite;
-  background-size: 300%;
-}
-.extended-core-team-heading {
-  background-image: linear-gradient(
-    to right,
-    var(--clr-green),
-    var(--clr-yellow)
-  );
-}
-@keyframes txt-animation {
-  0% {
-    background-position: left;
-  }
-  100% {
-    background-position: right;
-  }
-}
-.member {
-  padding: 0.4rem;
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-  width: 28rem;
-  height: 29rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  transition: height 500ms ease-out;
-}
-.front,
-.back {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  backface-visibility: hidden;
-  position: absolute;
-  transition: transform 500ms ease;
-}
-.front {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transform: perspective(600px) rotateY(0deg);
-}
-.back {
-  font-size: 1.35rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transform: perspective(600px) rotateY(180deg);
-  transition: transform 500ms ease;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-}
-.member:hover .back {
-  transform: perspective(600px) rotateY(0deg);
-}
-.member:hover .front {
-  transform: perspective(600px) rotateY(-180deg);
-}
-.member:hover {
-  height: 32rem;
-}
-.member:nth-of-type(6n + 1) {
-  box-shadow: 2px 2px 3px 3px var(--clr-blue);
-}
-.member:nth-of-type(6n + 2) {
-  box-shadow: 2px 2px 3px 3px var(--clr-red);
-}
-.member:nth-of-type(6n + 3) {
-  box-shadow: 2px 2px 3px 3px var(--clr-yellow);
-}
-.member:nth-of-type(6n + 4) {
-  box-shadow: 2px 2px 3px 3px var(--clr-blue);
-}
-.member:nth-of-type(6n + 5) {
-  box-shadow: 2px 2px 3px 3px var(--clr-green);
-}
-.member:nth-of-type(6n + 6) {
-  box-shadow: 2px 2px 3px 3px var(--clr-red);
-}
-.member img {
-  aspect-ratio: 1;
-  width: 13rem;
-  border-radius: 50%;
-}
-.member-details {
-  margin-top: 1.6em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.member-name {
-  font-size: 2.2rem;
-  font-weight: 600;
-  color: rgb(59, 58, 58);
-  text-align: center;
-  font-family: 'Noto Sans Display', sans-serif;
-}
-.member-des {
-  font-size: 1.5rem;
-  text-align: center;
-  font-family: 'Noto Sans Display', sans-serif;
-}
-.social {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-.social-link {
-  font-size: 2rem;
-  color: currentColor;
-}
-@media (max-width: 614px) {
-  .lead-front {
-    flex-direction: column;
-  }
-  .lead {
-    height: 30rem;
-    width: 75%;
-    padding: 0.2rem;
-  }
-  .lead:hover {
-    height: 45rem;
-    max-width: 75ch;
-  }
-  .lead-details {
-    margin: auto;
-  }
-  .heading {
-    flex-direction: column;
+
+/* ********************************* Team Members ********************************* */
+
+div.team .member {
+    position: relative;
+    margin: 8rem auto;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
-  }
-  .member:hover {
-    height: 35rem;
-  }
+    flex-wrap: wrap;
+    gap: 4rem;
 }
-@media (max-width: 400px) {
-  .lead:hover {
-    height: 50rem;
-    width: 85%;
-  }
-  .member:hover {
-    height: 38rem;
-  }
-}
-@media (max-width: 310px) {
-  .lead:hover {
-    height: 60rem;
-  }
-}
-@media (min-width: 614px) and (max-width: 1000px) {
-  .lead:hover {
-    height: 30rem;
-  }
-  .member:hover {
-    height: 35rem;
-  }
-}
-@media (min-width: 1023px) {
-  .member {
+
+/* ********************************* Members Cards ********************************* */
+
+div.team .member .profile_card {
+    position: relative;
+    margin: auto;
+    padding: 2rem;
+    width: 30rem;
     height: 28rem;
-    width: 29rem;
-  }
-  .lead:hover {
-    height: 27rem;
-  }
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 4px solid var(--darkblack);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
 }
+
+/* Card Border Colors */
+div.team .member .profile_card.red {
+    border: 4px solid var(--primaryred);
+}
+div.team .member .profile_card.blue {
+    border: 4px solid var(--primaryblue);
+}
+div.team .member .profile_card.green {
+    border: 4px solid var(--primarygreen);
+}
+div.team .member .profile_card.yellow {
+    border: 4px solid var(--primaryyellow);
+}
+
+/* Profile Image */
+div.team .member .profile_card img {
+    margin: auto auto 0.5rem;
+    padding: 0.5rem;
+    width: 11.5rem;
+    height: auto;
+    background: var(--darkwhite);
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease;
+}
+
+div.team .member .profile_card:hover img {
+    transform: scale(1.05);
+}
+
+/* Profile Name */
+div.team .member .profile_card h4 {
+    margin: 1rem auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: var(--mainfont);
+    color: var(--lightblack);
+    text-align: center;
+    transition: all 0.2s ease;
+}
+div.team .member .profile_card h4.lg {
+    font-size: 3rem;
+}
+
+div.team .member .profile_card:hover h4 {
+    transform: scale(0.9);
+}
+
+/* Profile Tags */
+div.team .member .profile_card p {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    user-select: none;
+}
+
+div.team .member .profile_card p span {
+    margin: 0.2rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: var(--mainfont);
+    color: var(--darkwhite);
+    background: var(--darkblack);
+    text-align: center;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+}
+
+/* Tags Colors */
+div.team .member .profile_card p span.red {
+    background: var(--primaryred);
+}
+div.team .member .profile_card p span.blue {
+    background: var(--primaryblue);
+}
+div.team .member .profile_card p span.green {
+    background: var(--primarygreen);
+}
+div.team .member .profile_card p span.yellow {
+    background: var(--primaryyellow);
+}
+
+/* Profile Social Links */
+div.team .member .profile_card .social {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+div.team .member .profile_card:hover .social {
+    opacity: 1;
+}
+
+div.team .member .profile_card .social a {
+    margin: 0.6rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: var(--darkblack);
+    background: var(--darkwhite);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transform: translateY(20rem);
+    transition: all 0.2s ease,
+        transform 0.4s cubic-bezier(0.1, 1.36, 0.55, 0.98);
+}
+
+div.team .member .profile_card .social:hover a {
+    transform: translateY(0);
+}
+
+div.team .member .profile_card .social:hover a:nth-child(1) {
+    transition: transform 0.4s cubic-bezier(0.1, 1.36, 0.55, 0.98) 0;
+}
+div.team .member .profile_card .social:hover a:nth-child(2) {
+    transition: transform 0.4s cubic-bezier(0.1, 1.36, 0.55, 0.98) 0.1s;
+}
+div.team .member .profile_card .social:hover a:nth-child(3) {
+    transition: transform 0.4s cubic-bezier(0.1, 1.36, 0.55, 0.98) 0.2s;
+}
+
+div.team .member .profile_card .social a:hover {
+    color: var(--darkwhite);
+    background: var(--darkblack);
+}
+
+div.team .member .profile_card .social a i {
+    transition: transform 0.8s ease;
+}
+
+div.team .member .profile_card .social a:hover i {
+    transform: rotateY(1turn);
+}
+
+/* ********************************* Responsive Media ********************************* */
+
+/* Already Responsive */
+
+/* ********************************* Styles End ********************************* */

@@ -9,7 +9,7 @@ header {
     z-index: 10;
     background: var(--darkwhite);
     box-shadow: 0 2px 4px rgba(50, 69, 107, 0.2);
-    transition: all 0.2s ease;
+    transition: all 0.2s ease, transform 0.4s ease;
 }
 
 header nav {
