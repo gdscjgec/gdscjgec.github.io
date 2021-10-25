@@ -38,6 +38,41 @@
     font-size: 20px;
     /* text-align: center; */
     margin: 20px 0;
+    color: var(--lightblack);
+    line-height: 32px;
+}
+
+first-letter {
+  color: var(--primaryblue);
+}
+
+second-letter {
+  color: var(--primaryyellow);
+}
+
+third-letter {
+  color: var(--primaryred);
+}
+
+forth-letter {
+  color: var(--primarygreen);
+}
+
+.member-button {
+    background: #2F5BE7;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    color: #FFFFFF;
+    padding: 12px 18px;
+    font-size: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.member-button:hover {
+    background: #007BFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 110, 255, 0.4);
 }
 
 .floating {
