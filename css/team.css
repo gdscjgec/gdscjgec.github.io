@@ -193,21 +193,21 @@ div.team .member .profile_card .social a {
     text-decoration: none;
     transform: translateY(20rem);
     transition: all 0.2s ease,
-        transform 0.4s cubic-bezier(0.1, 1.36, 0.55, 0.98);
+        transform 0.5s cubic-bezier(0.1, 1.36, 0.55, 0.98);
 }
 
-div.team .member .profile_card .social:hover a {
+div.team .member .profile_card:hover .social a {
     transform: translateY(0);
 }
 
-div.team .member .profile_card .social:hover a:nth-child(1) {
-    transition: transform 0.4s cubic-bezier(0.1, 1.36, 0.55, 0.98) 0;
+div.team .member .profile_card:hover .social a:nth-child(1) {
+    transition: transform 0.5s cubic-bezier(0.1, 1.36, 0.55, 0.98) 0;
 }
-div.team .member .profile_card .social:hover a:nth-child(2) {
-    transition: transform 0.4s cubic-bezier(0.1, 1.36, 0.55, 0.98) 0.1s;
+div.team .member .profile_card:hover .social a:nth-child(2) {
+    transition: transform 0.5s cubic-bezier(0.1, 1.36, 0.55, 0.98) 0.1s;
 }
-div.team .member .profile_card .social:hover a:nth-child(3) {
-    transition: transform 0.4s cubic-bezier(0.1, 1.36, 0.55, 0.98) 0.2s;
+div.team .member .profile_card:hover .social a:nth-child(3) {
+    transition: transform 0.5s cubic-bezier(0.1, 1.36, 0.55, 0.98) 0.2s;
 }
 
 div.team .member .profile_card .social a:hover {
