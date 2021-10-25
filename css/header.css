@@ -60,7 +60,7 @@ header nav div.navbar_menus {
 header nav div.navbar_menus a {
     position: relative;
     margin: auto 0.5rem;
-    padding: 0.3rem 1rem;
+    padding: 0.5rem 1.2rem;
     font-size: 1.8rem;
     font-weight: 600;
     font-family: var(--mainfont);
@@ -104,12 +104,12 @@ header nav div.navbar_menus a.active:after {
 @media (max-width: 768px) {
     header nav div.navbar_menus {
         margin: 0;
-        padding: 2rem 6rem;
+        padding: 1rem 6rem;
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        transform: translateY(20%);
+        transform: translateY(15%);
         flex-direction: column;
         background: var(--darkwhite);
         border: none;
@@ -198,10 +198,15 @@ header nav button.menu_toggle.active span.menu_toggle_icon::after {
 
     header nav div.navbar_menus a {
         margin: auto 0.3rem;
+        padding: 0.5rem 1rem;
     }
 }
 
 @media (max-width: 992px) {
+    header {
+        padding: 1rem 3rem;
+    }
+
     header nav a.navbar_brand img {
         width: 6.5rem;
     }
@@ -226,7 +231,7 @@ header nav button.menu_toggle.active span.menu_toggle_icon::after {
 
     header nav div.navbar_menus a {
         margin: 0.8rem auto;
-        font-size: 1.9rem;
+        font-size: 2rem;
         width: 100%;
     }
 
@@ -238,7 +243,7 @@ header nav button.menu_toggle.active span.menu_toggle_icon::after {
 
 @media (max-width: 472px) {
     header nav div.navbar_menus {
-        padding: 2rem 4rem;
+        padding: 1rem 4rem;
     }
 }
 

@@ -1,0 +1,296 @@
+/* ********************************* Footer Section ********************************* */
+
+footer {
+    margin: 6rem 0 0;
+    padding: 4rem 4rem 2rem;
+    position: relative;
+    background: var(--darkblack);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* ********************************* Footer Desc ********************************* */
+
+footer .footer_desc {
+    position: relative;
+    flex-basis: 35%;
+}
+
+footer .footer_desc h2 {
+    margin: 1rem auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: var(--mainfont);
+    color: var(--darkwhite);
+    text-align: left;
+}
+
+footer .footer_desc p {
+    margin: 1rem auto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: var(--mainfont);
+    color: var(--lightwhite);
+    letter-spacing: 0.5px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+footer .footer_desc a.join_btn {
+    margin: 1rem 0;
+    padding: 0.8rem 1.4rem;
+    background: var(--customcolor);
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    transition: all 0.2s ease;
+}
+
+footer .footer_desc a.join_btn:hover {
+    background: var(--lightblack);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+}
+
+footer .footer_desc a.join_btn i {
+    margin: auto 0.2rem;
+    font-size: 2.6rem;
+    color: var(--darkwhite);
+}
+
+footer .footer_desc a.join_btn span {
+    margin: auto 0.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: var(--mainfont);
+    color: var(--darkwhite);
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+footer .footer_desc .logo_tag {
+    margin: 1.5rem 0;
+    padding: 0.5rem;
+    background: var(--darkwhite);
+    border-radius: 8px;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+footer .footer_desc .logo_tag img {
+    margin: auto 0.5rem;
+    width: 4.5rem;
+    height: auto;
+}
+
+footer .footer_desc .logo_tag p {
+    margin: auto 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: var(--mainfont);
+    color: var(--darkblack);
+    text-align: left;
+}
+
+footer .footer_desc .logo_tag span {
+    padding: 0.2rem 0.6rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: var(--mainfont);
+    color: var(--darkwhite);
+    background: var(--primaryyellow);
+    text-align: center;
+    letter-spacing: 0.2px;
+    border-radius: 50px;
+}
+
+/* ********************************* Footer Links ********************************* */
+
+footer .footer_links {
+    position: relative;
+    flex-basis: 20%;
+}
+
+footer .footer_links h2 {
+    margin: 1rem auto;
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: var(--mainfont);
+    color: var(--darkwhite);
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+footer .footer_links span {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .footer_links span a {
+    position: relative;
+    margin: 0.5rem 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: var(--mainfont);
+    color: var(--lightwhite);
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+footer .footer_links span a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--lightwhite);
+    border-radius: 4px;
+    transform-origin: 50% 50%;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+
+footer .footer_links span a:hover::after {
+    transform: scaleX(1);
+}
+
+/* ********************************* Footer Contact ********************************* */
+
+footer .footer_contact {
+    position: relative;
+    flex-basis: 20%;
+}
+
+footer .footer_contact h2 {
+    margin: 1rem auto;
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: var(--mainfont);
+    color: var(--darkwhite);
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+footer .footer_contact a.follow {
+    margin: 2rem 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer .footer_contact a.follow i {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--lightwhite);
+    line-height: 1.2;
+}
+
+footer .footer_contact a.follow span {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--mainfont);
+    color: var(--lightwhite);
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+footer .footer_contact a.follow span:hover {
+    color: var(--lightgrey);
+}
+
+footer .footer_contact .social_links {
+    margin: 2rem 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer_contact .social_links a {
+    margin: 0.7rem;
+    padding: 0.5rem;
+    font-size: 2.3rem;
+    color: var(--lightwhite);
+    background: var(--lightblack);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+footer .footer_contact .social_links a:hover {
+    color: var(--lightblack);
+    background: var(--lightwhite);
+    transform: scale(1.1);
+}
+
+/* ********************************* Responsive Medias ********************************* */
+
+@media (max-width: 1240px) {
+    footer .footer_desc {
+        flex-basis: 40%;
+    }
+    footer .footer_contact {
+        flex-basis: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+    footer .footer_desc {
+        margin: 2rem 0;
+        flex-basis: 50%;
+    }
+    footer .footer_links {
+        margin: 2rem 0;
+        flex-basis: 30%;
+    }
+    footer .footer_contact {
+        margin: 2rem 0;
+        flex-basis: auto;
+    }
+}
+
+@media (max-width: 572px) {
+    footer {
+        justify-content: flex-start;
+    }
+
+    footer .footer_desc,
+    footer .footer_links {
+        flex-basis: auto;
+    }
+
+    footer .footer_contact {
+        margin: 2rem 4rem;
+    }
+
+    footer .footer_links span {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 470px) {
+    footer .footer_desc,
+    footer .footer_links,
+    footer .footer_contact {
+        margin: 1rem 0;
+    }
+}
+
+/* ********************************* Styles End ********************************* */
