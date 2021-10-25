@@ -1,78 +1,719 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Site Title -->
+    <title>Teams | GDSC JGEC</title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" type="image/svg" href="../assets/logo.svg" />
 
-<head>
-	<!-- Site Title -->
-	<title>Teams | GDSC JGEC</title>
-	<!-- Favicon-->
-	<link rel="shortcut icon" type="image/svg" href="../assets/logo.svg" />
+    <!-- Meta Character & Device Dimension -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
 
-	<!-- Meta Character & Device Dimension -->
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!-- Meta Author, Description, Keywords -->
+    <meta name="author" content="GDSC JGEC" />
+    <meta
+      name="description"
+      content="Welcome to Official Website of GDSC JGEC"
+    />
+    <meta name="keywords" content="gdsc, jgec, google, developer, club" />
 
-	<!-- Meta Author, Description, Keywords -->
-	<meta name="author" content="GDSC JGEC" />
-	<meta name="description" content="Welcome to Official Website of GDSC JGEC" />
-	<meta name="keywords" content="gdsc, jgec, google, developer, club" />
+    <!-- Meta OG: Site, Title, Description, Image, Link Displayed -->
+    <meta property="og:site_name" content="GDSCJGEC" />
+    <meta property="og:title" content="GDSC JGEC" />
+    <meta property="og:description" content="Welcome to GDSC JGEC" />
+    <meta
+      property="og:image"
+      content="https://gdscjgec.github.io/assets/opengraph.png"
+    />
 
-	<!-- Meta OG: Site, Title, Description, Image, Link Displayed -->
-	<meta property="og:site_name" content="GDSCJGEC" />
-	<meta property="og:title" content="GDSC JGEC" />
-	<meta property="og:description" content="Welcome to GDSC JGEC" />
-	<meta property="og:image" content="https://gdscjgec.github.io/assets/opengraph.png" />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css"
+    />
 
-	<!-- Icons -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css" />
+    <!-- Address Bar/Tab Color -->
+    <!-- Mobile -->
+    <meta name="theme-color" content="#FFFFFF" />
+    <!-- Windows -->
+    <meta name="msapplication-navbutton-color" content="#FFFFFF" />
 
-	<!-- Address Bar/Tab Color -->
-	<!-- Mobile -->
-	<meta name="theme-color" content="#FFFFFF">
-	<!-- Windows -->
-	<meta name="msapplication-navbutton-color" content="#FFFFFF">
+    <!-- External CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    />
 
-	<!-- External CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../css/settings.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/team.css" />
 
-	<!-- Main CSS -->
-	<link rel="stylesheet" href="../css/settings.css" />
-	<link rel="stylesheet" href="../css/header.css" />
-	<link rel="stylesheet" href="../css/team.css" />
+    <!-- Main JS -->
+    <script defer src="../js/script.js"></script>
+  </head>
 
-	<!-- Main JS -->
-	<script defer src="../js/script.js"></script>
+  <body>
+    <!-- navigation bar starts -->
+    <nav class="navbar">
+      <div class="brand-title">
+        <img
+          src="/assets/logo.png"
+          alt="Logo"
+          height="50px"
+          class="d-inline-block align-text-center"
+        />
+        <img
+          src="/assets/Name logo.png"
+          alt=" Name Logo"
+          height="50px"
+          class="d-inline-block align-text-center"
+        />
+      </div>
 
-</head>
+      <!--toggle button-->
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li>
+            <a href="/index.html"><b>Home</b></a>
+          </li>
+          <li>
+            <a href="/pages/events.html"><b>Events</b></a>
+          </li>
+          <li>
+            <a href="/pages/blogs.html"><b>Blogs</b></a>
+          </li>
+          <li>
+            <a href="/pages/team.html"><b>Team</b></a>
+          </li>
+          <li>
+            <a href="/pages/contact.html"><b>Contact Us</b></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
+    <!--navigation bar ends -->
 
-	<!-- Header Navbar Start -->
-	<header>
-		<nav>
-			<a class="navbar_brand" href="https://gdscjgec.github.io/">
-				<img src="../assets/logo.svg" alt="Logo" />
-				<span>GDSC JGEC</span>
-			</a>
-
-			<button class="menu_toggle">
-				<span class="menu_toggle_icon"></span>
-			</button>
-
-			<div class="navbar_menus">
-				<a href="./home.html" class="nav_link">Home</a>
-				<a href="./about.html" class="nav_link">About</a>
-				<a href="./events.html" class="nav_link">Events</a>
-				<a href="./projects.html" class="nav_link">Projects</a>
-				<a href="./blogs.html" class="nav_link">Blogs</a>
-				<a href="./team.html" class="nav_link active">Team</a>
-				<a href="./contact.html" class="nav_link">Contact</a>
-			</div>
-		</nav>
-	</header>
-	<!-- Header Navbar End -->
-
-</body>
-
+    <div class="heading">
+      <div class="heading-img">
+        <img
+          src="https://avatars.githubusercontent.com/u/91535694?s=280&v=4"
+          height="60px"
+          width="60px"
+        />
+      </div>
+      <div class="heading-text">
+        <div class="meet">
+          <span style="color: #4285f4">M</span
+          ><span style="color: #db4437">E</span
+          ><span style="color: #f4b400">E</span
+          ><span style="color: #4285f4">T</span>
+        </div>
+        <div class="our">
+          <span style="color: #0f9d58">O</span
+          ><span style="color: #db4437">U</span
+          ><span style="color: #4285f4">R</span>
+        </div>
+        <div class="team">
+          <span style="color: #db4437">T</span
+          ><span style="color: #f4b400">E</span
+          ><span style="color: #4285f4">A</span
+          ><span style="color: #0f9d58">M</span>
+        </div>
+      </div>
+      <div>
+        <img
+          src="https://avatars.githubusercontent.com/u/91535694?s=280&v=4"
+          height="60px"
+          width="60px"
+        />
+      </div>
+    </div>
+    <div class="lead">
+      <div class="lead-front">
+        <img
+          src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/niloy_sikdar_42l6CGr.jpg"
+        />
+        <div class="lead-details">
+          <div class="lead-name">Niloy Sikdar</div>
+          <div class="lead-des">GDSC Lead</div>
+        </div>
+      </div>
+      <div class="lead-back">
+        <div class="social">
+          <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          praesentium quam doloremque et eaque quidem, at labore nulla mollitia
+          commodi temporibus nihil sapiente, ipsum minus blanditiis id adipisci
+          sed a. lorem lorem Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Dicta id modi facere laborum esse sunt aspernatur eligendi
+          dolores, pariatur reiciendis iure, cumque eos architecto libero
+          commodi nulla laboriosam ipsum dolorum!
+        </p>
+      </div>
+    </div>
+    <div class="core-team-heading">
+      <div>CORE TEAM MEMBERS</div>
+    </div>
+    <div class="core-team">
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/anubhab_sarkar_JPBCW9J.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Anubhab Sarkar</div>
+            <div class="member-des">Content and Graphics Lead</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam. Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Tempore numquam perferendis sit totam iste modi
+          aspernatur voluptas aperiam assumenda. Deserunt similique maiores,
+          fuga rerum iste expedita quibusdam consequatur architecto numquam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/v_nikhita_PWyYl8F.png"
+          />
+          <div class="member-details">
+            <div class="member-name">V Nikhita</div>
+            <div class="member-des">Management Lead</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/namrata_das_ZO7PieX.jpg"
+          />
+          <div class="member-details">
+            <div class="member-name">Namrata Das</div>
+            <div class="member-des">DSA, Management, and Content Lead</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/sagnik_roy_ZGsJDN5.jpg"
+          />
+          <div class="member-details">
+            <div class="member-name">Sagnik Roy</div>
+            <div class="member-des">AI and ML Lead</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/tarpan_bhattacharya_vmkzCK3.jpg"
+          />
+          <div class="member-details">
+            <div class="member-name">Tarpan Bhattacharya</div>
+            <div class="member-des">Android Lead</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/soham_chowdhury_WdJLxZM.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Soham Choudhury</div>
+            <div class="member-des">DSA Lead</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/sahil_saha_qzJFtOo.jpg"
+          />
+          <div class="member-details">
+            <div class="member-name">Sahil Saha</div>
+            <div class="member-des">Web and Flutter Lead</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/utpalendu_barman.jpg"
+          />
+          <div class="member-details">
+            <div class="member-name">Utpalendu Barman</div>
+            <div class="member-des">Web, Android, and ML Lead</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+    </div>
+    <div class="extended-core-team-heading">
+      <div>EXTENDED-CORE TEAM MEMBERS</div>
+    </div>
+    <div class="extended-core-team">
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Anirban Debnath</div>
+            <div class="member-des">Native Android Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Vedant Ramaiah</div>
+            <div class="member-des">Management Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Nilari Mondal</div>
+            <div class="member-des">Web and Flutter Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Tunnisha Das Gupta</div>
+            <div class="member-des">Content and Graphics Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Nisha Yadav</div>
+            <div class="member-des">Content and Graphics Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Soham Sen</div>
+            <div class="member-des">Content and Graphics Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Shreya Paul</div>
+            <div class="member-des">Management Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Debapriya Chandra</div>
+            <div class="member-des">DSA Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Padmanabha Banerjee</div>
+            <div class="member-des">AI/ML Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Mahmood Ahmed</div>
+            <div class="member-des">Native Android Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Aman Prakash Jha</div>
+            <div class="member-des">Web and Flutter Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Ayush Choudhury</div>
+            <div class="member-des">Web and Flutter Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Shibam Naskar</div>
+            <div class="member-des">Web and Flutter Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Syed Ziauddin</div>
+            <div class="member-des">Web and Graphics Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+      <div class="member">
+        <div class="front">
+          <img
+            src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png"
+          />
+          <div class="member-details">
+            <div class="member-name">Sagnik Mitra</div>
+            <div class="member-des">DSA Team</div>
+          </div>
+        </div>
+        <div class="back">
+          <div class="social">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+          numquam exercitationem assumenda deleniti corporis. Aut ad mollitia
+          omnis nesciunt doloribus voluptatem, iste ab fuga. Aspernatur maxime
+          modi delectus sed laboriosam.
+        </div>
+      </div>
+    </div>
+    >>>>>>> 22e98f81430e6d4125efacae41922863d4c3931b
+  </body>
 </html>
