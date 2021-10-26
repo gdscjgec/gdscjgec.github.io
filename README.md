@@ -13,7 +13,7 @@
   <a href="https://github.com/gdscjgec">
     <img src="./assets/logo.svg" alt="Logo" width="400" height="250">
   </a>
-  <h3 align="center">GDSC JGEC Website</h3>
+  <h1 align="center">GDSC JGEC Website</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
