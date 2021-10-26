@@ -17,11 +17,23 @@ section#contact div.contact {
 
 div.contact div.contact_title {
     margin: 4rem;
+    position: relative;
+}
+
+div.contact div.contact_title::after {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    bottom: 0;
+    height: 100%;
+    width: 6px;
+    border-radius: 4px;
+    background: var(--primaryblue);
 }
 
 div.contact div.contact_title h1 {
     margin: 1rem auto;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 600;
     font-family: var(--mainfont);
     color: var(--lightblack);
@@ -30,7 +42,7 @@ div.contact div.contact_title h1 {
 
 div.contact div.contact_title h2 {
     margin: 1rem auto;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 600;
     font-family: var(--mainfont);
     color: var(--lightblack);
