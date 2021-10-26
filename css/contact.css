@@ -1,5 +1,12 @@
 /* ********************************* Contact Page Styles ********************************* */
 
+body {
+    background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center /
+        cover;
+}
+
+/* ********************************* Contact Section ********************************* */
+
 section#contact div.contact {
     position: relative;
     margin: 10rem auto;
