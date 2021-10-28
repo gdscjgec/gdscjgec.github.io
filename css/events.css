@@ -4,7 +4,10 @@
 
 body {
     height: fit-content;
+    background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center /
+        cover;
 }
+
 .upcoming {
     display: grid;
 }
@@ -16,21 +19,24 @@ body {
     margin-bottom: 20px;
     padding: 20px;
     margin-top: 5%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 500;
+    font-family: var(--mainfont);
+    /* font-weight: 300; */
     font-size: 30px;
 }
 .eventCard {
     width: 60vw;
     min-height: 40vh;
     height: fit-content;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255,0.8);
     box-shadow:  0 0 15px rgb(99 114 130 / 30%);
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 10px;
+    padding: 5px;
     transition: transform 0.2s;
-    /* border-radius: 20px; */
+    border-radius: 10px;
     /* opacity: 0.2; */
     min-width: 40vh;
     display: flex;
@@ -53,37 +59,38 @@ body {
     transform: scale(1.1);
 }
 
+.eventCard .eventImage {
+    display: flex;
+    align-self: center;
+    margin-top: 2.5vh;
+    margin-left: 2.5vh;
+}
+
 .eventCard:nth-child(odd) .eventImage {
     min-height: fit-content;
     /* height: inherit; */
-    display: flex;
     /* background-color: tomato; */
-    align-self: center;
-    margin-top: 2.5vh;
-    margin-right: 2.5vh;
     float: right;
 }
 .eventCard:nth-child(even) .eventImage {
     /* min-height: 40vh; */
     height: fit-content;
-    display: flex;
-    align-self: center;
-    margin-top: 2.5vh;
-    margin-left: 2.5vh;
 }
-.eventCard:nth-child(odd) .eventStat {
+
+.eventCard .eventStat {
     min-height: 40vh;
     margin-top: 2.5vh;
     margin-left: 2.5vh;
+}
+
+.eventCard:nth-child(odd) .eventStat {
     float: left;
 }
 .eventCard:nth-child(even) .eventStat {
-    min-height: 40vh;
-    margin-top: 2.5vh;
-    margin-right: 2.5vh;
     float: right;
-    text-align: right;
+    /* text-align: right; */
 }
+
 .eventImage {
     height: inherit;
     /* background-color: violet; */
@@ -97,17 +104,15 @@ body {
     text-align: center;
     margin-top: 10%;
     font-size: 13px;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-right: 30px;
-    /* line-height: normal; */
 }
 .eventStat:nth-child(even) p {
     text-align: center;
     margin-top: 10%;
     font-size: 13px;
     padding-left: 30px;
-    padding-right: 10px;
-    /* line-height: normal; */
+    padding-right: 30px;
 }
 
 /* past event specifics*/
@@ -118,7 +123,8 @@ body {
     text-align: right;
 }
 .past .eventCard {
-    background-color: #e0e75f58;
+    /* background-color: #d4da6ec7; */
+    background-color: rgba(50, 69, 107, 0.2);
 }
 .past .eventCard:nth-child(odd) .eventImage {
     width: 500px;
@@ -151,6 +157,11 @@ body {
 .past .eventStat h5 {
     text-align: center;
 }
+
+.eventStat{
+    text-align: center;
+}
+
 
 @media screen and (max-width: 900px) {
     .eventCard {
