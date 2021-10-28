@@ -24,12 +24,13 @@ body {
     width: 60vw;
     min-height: 40vh;
     height: fit-content;
-    background-color: rgba(56, 247, 110, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow:  0 0 15px rgb(99 114 130 / 30%);
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 10px;
     transition: transform 0.2s;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* opacity: 0.2; */
     min-width: 40vh;
     display: flex;
