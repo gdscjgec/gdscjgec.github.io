@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 }
 
+body {
+    background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center /
+        cover;
+}
+
 img {
 	width: 100%;
 	height: 100%;
