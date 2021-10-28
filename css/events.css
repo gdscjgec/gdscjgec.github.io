@@ -1,190 +1,170 @@
-/* ********************************* Events Page Styles ********************************* */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap');
-
-body {
-    height: fit-content;
-}
-.upcoming {
-    display: grid;
-}
-.event {
-    /* background-color: #8cf01a; */
-    /* border: 1px solid #e3e3e3; */
-    /* border-radius: 4px; */
-    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); */
-    margin-bottom: 20px;
-    padding: 20px;
-    margin-top: 2%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-}
-.eventCard {
-    width: 60vw;
-    min-height: 40vh;
-    height: fit-content;
-    background-color: rgba(56, 247, 110, 0.5);
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    transition: transform 0.2s;
-    border-radius: 20px;
-    /* opacity: 0.2; */
-    min-width: 40vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.eventCard:nth-child(odd) {
-    float: right;
-    margin-right: 50px;
-    flex-direction: row-reverse;
-}
-.eventCard:nth-child(even) {
-    float: left;
-    margin-left: 50px;
-    flex-direction: row;
-}
-.eventCard:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1);
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-.eventCard:nth-child(odd) .eventImage {
-    min-height: fit-content;
-    /* height: inherit; */
-    display: flex;
-    /* background-color: tomato; */
-    align-self: center;
-    margin-top: 2.5vh;
-    margin-right: 2.5vh;
-    float: right;
+img {
+	width: 100%;
+	height: 100%;
 }
-.eventCard:nth-child(even) .eventImage {
-    /* min-height: 40vh; */
-    height: fit-content;
-    display: flex;
-    align-self: center;
-    margin-top: 2.5vh;
-    margin-left: 2.5vh;
+
+.container {
+	width: 90%;
+	margin: 10rem auto;
+    padding: 1rem;
+	max-width: 1000px;
 }
-.eventCard:nth-child(odd) .eventStat {
-    min-height: 40vh;
-    margin-top: 2.5vh;
-    margin-left: 2.5vh;
-    float: left;
+
+p {
+	font-size: 1.6rem;
+	color: var(--lightblack);
 }
-.eventCard:nth-child(even) .eventStat {
-    min-height: 40vh;
-    margin-top: 2.5vh;
-    margin-right: 2.5vh;
-    float: right;
-    text-align: right;
+
+.section-title {
+	margin-top: 3rem;
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--lightblack);
+    letter-spacing: 0.2px;
+    text-align: center;        
 }
-.eventImage {
-    height: inherit;
-    /* background-color: violet; */
-}
-.eventImage img {
-    height: 35vh;
-    width: 35vh;
-    border-radius: 50%;
-}
-.eventStat:nth-child(odd) p {
+
+.section-subtitle {
+    font-size: 20px;
     text-align: center;
-    margin-top: 10%;
-    font-size: 13px;
-    padding-left: 10px;
-    padding-right: 30px;
-    /* line-height: normal; */
-}
-.eventStat:nth-child(even) p {
-    text-align: center;
-    margin-top: 10%;
-    font-size: 13px;
-    padding-left: 30px;
-    padding-right: 10px;
-    /* line-height: normal; */
+    margin-bottom: 5rem;
 }
 
-/* past event specifics*/
-.past {
-    display: grid;
-}
-.past .event {
-    text-align: right;
-}
-.past .eventCard {
-    background-color: #e0e75f58;
-}
-.past .eventCard:nth-child(odd) .eventImage {
-    width: 500px;
-    padding-left: 20px;
-}
-.past .eventCard:nth-child(odd) .eventStat {
-    max-width: 500px;
-    /* min-width: 200px; */
-}
-
-.past .eventCard:nth-child(even) .eventImage {
-    width: 500px;
-    min-width: 450px;
-    padding-right: 20px;
-}
-.past .eventCard:nth-child(even) .eventStat {
-    max-width: 500px;
-    /* min-width: 200px; */
-}
-
-.past .eventCard {
-    min-width: fit-content;
-}
-.past .eventImage img {
-    border-radius: 0%;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.past .eventStat h5 {
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--lightblack);
+    letter-spacing: 0.2px;
     text-align: center;
 }
 
-@media screen and (max-width: 900px) {
-    .eventCard {
-        flex-direction: column;
-        width: 80vw;
-        min-width: 300px;
-        justify-items: center;
-        align-items: center;
-        justify-content: center;
-    }
-    .eventCard:nth-child(odd) {
-        /* float: right; */
-        /* margin-right: 50px; */
-        flex-direction: column;
-    }
-    .eventCard:nth-child(even) {
-        /* float: left; */
-        /* margin-left: 50px; */
-        flex-direction: column;
-    }
-    .eventImage {
-        display: flex;
-        width: fit-content;
-        /* background-color: yellow; */
-    }
-    .eventCard:nth-child(odd) .eventStat {
-        /* display: flex; */
-        width: fit-content;
-        text-align: center;
-        /* background-color: yellowgreen; */
-    }
-    .eventCard:nth-child(even) .eventStat {
-        /* display: flex; */
-        width: fit-content;
-        text-align: center;
-        /* background-color: yellowgreen; */
-    }
+.underline {
+    height: 0.4rem;
+    width: 8rem;
+    border-radius: 5px;
+    background: var(--primarygreen);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.button {
+    background: #2F5BE7;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    color: #FFFFFF;
+    padding: 12px 18px;
+    font-size: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #007BFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 110, 255, 0.4);
+}
+
+#events .item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 10rem;
+}
+
+#events .item:nth-of-type(even) {
+	flex-direction: row-reverse;
+}
+
+#events .item .left {
+	flex: 1;
+}
+
+#events .item .right {
+	margin-left: -150px;
+	flex: 1;
+	background-color: var(--darkwhite);
+	padding: 5rem 3rem;
+	border-radius: 12px;
+	box-shadow: 0 0 15px rgb(99 114 130 / 30%);
+	z-index: 2;
+}
+
+#events .item:nth-of-type(even) .right {
+	margin-left: 0;
+}
+
+#events .item:nth-of-type(even) .left {
+	margin-left: -150px;
+}
+
+#events .item .left .img {
+	height: 500px;
+	overflow: hidden;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 0 15px rgb(99 114 130 / 30%);
+	position: relative;
+}
+
+#events .item .left .img::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#events .item .left .img img {
+	object-fit: cover;
+	transition: 0.3s ease transform;
+}
+
+#events .item:hover .left .img img {
+	transform: scale(1.1);
+	z-index: 1;
+}
+
+#events .item .right .event-heading {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+#events .item .right .event-subheading {
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+    color: var(--lightblack);
+}
+
+#events .item .right .event-description {
+	margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+	#events .item {
+		flex-direction: column;
+	}
+	#events .item .left {
+		width: 100%;
+	}
+	#events .item .right {
+		margin-left: 0;
+		width: 90%;
+		margin-top: -150px;
+	}
+	#events .item:nth-of-type(even) {
+		flex-direction: column;
+	}
+	#events .item:nth-of-type(even) .left {
+		margin-left: 0;
+	}
 }
