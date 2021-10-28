@@ -174,12 +174,9 @@ section#projects div.projects_contents .project_card p {
     font-family: var(--mainfont);
     color: var(--lightblack);
     text-align: left;
-
     overflow: hidden;
+    white-space: nowrap;
     text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
 }
 
 section#projects div.projects_contents .project_card .links {
