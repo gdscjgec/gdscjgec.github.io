@@ -129,7 +129,7 @@ section#projects div.projects_contents .project_card::after {
     height: 15rem;
     background: var(--primarygreen);
     opacity: 0.8;
-    border-radius: 6px;
+    border-radius: 2rem;
     transform: scale(1) rotate(45deg);
     transition: all 0.4s ease;
 }
@@ -139,7 +139,6 @@ section#projects div.projects_contents .project_card:hover {
     box-shadow: 0 0 20px rgba(155, 164, 180, 0.3);
 }
 section#projects div.projects_contents .project_card:hover:after {
-    border-radius: 20px;
     transform: scale(0.9) rotate(0deg);
 }
 
