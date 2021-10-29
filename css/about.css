@@ -5,6 +5,11 @@
 
 /* ********************************* About Page Styles ********************************* */
 
+body {
+    background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center /
+        cover;
+}
+
 .container {
     margin: 10rem auto;
     padding: 1rem;
@@ -13,7 +18,7 @@
 .container h2 {
     margin: 3rem auto;
     font-size: 35px;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--lightblack);
     letter-spacing: 0.2px;
     text-align: center;
