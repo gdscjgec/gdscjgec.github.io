@@ -7,6 +7,7 @@
 }
 
 body {
+    height: fit-content;
     background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center /
         cover;
 }
@@ -41,6 +42,105 @@ p {
     font-size: 20px;
     text-align: center;
     margin-bottom: 5rem;
+
+.upcoming {
+    display: grid;
+}
+.event {
+    /* background-color: #8cf01a; */
+    /* border: 1px solid #e3e3e3; */
+    /* border-radius: 4px; */
+    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 5%;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 500;
+    font-family: var(--mainfont);
+    /* font-weight: 300; */
+    font-size: 30px;
+}
+.eventCard {
+    width: 60vw;
+    min-height: 40vh;
+    height: fit-content;
+    background-color: rgb(255, 255, 255,0.8);
+    box-shadow:  0 0 15px rgb(99 114 130 / 30%);
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    transition: transform 0.2s;
+    border-radius: 10px;
+    /* opacity: 0.2; */
+    min-width: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eventCard:nth-child(odd) {
+    float: right;
+    margin-right: 50px;
+    flex-direction: row-reverse;
+}
+.eventCard:nth-child(even) {
+    float: left;
+    margin-left: 50px;
+    flex-direction: row;
+}
+.eventCard:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.eventCard .eventImage {
+    display: flex;
+    align-self: center;
+    margin-top: 2.5vh;
+    margin-left: 2.5vh;
+}
+
+.eventCard:nth-child(odd) .eventImage {
+    min-height: fit-content;
+    /* height: inherit; */
+    /* background-color: tomato; */
+    float: right;
+}
+.eventCard:nth-child(even) .eventImage {
+    /* min-height: 40vh; */
+    height: fit-content;
+}
+
+.eventCard .eventStat {
+    min-height: 40vh;
+    margin-top: 2.5vh;
+    margin-left: 2.5vh;
+}
+
+.eventCard:nth-child(odd) .eventStat {
+    float: left;
+}
+.eventCard:nth-child(even) .eventStat {
+    float: right;
+    /* text-align: right; */
+}
+
+.eventImage {
+    height: inherit;
+    /* background-color: violet; */
+}
+.eventImage img {
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+}
+.eventStat:nth-child(odd) p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .section-heading {
@@ -49,6 +149,11 @@ p {
     color: var(--lightblack);
     letter-spacing: 0.2px;
     text-align: center;
+    margin-top: 10%;
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 
 .underline {
@@ -76,6 +181,10 @@ p {
     color: #FFFFFF;
     text-decoration: none;
     box-shadow: 0 3px 6px rgba(0, 110, 255, 0.4);
+}
+.past .eventCard {
+    /* background-color: #d4da6ec7; */
+    background-color: rgba(50, 69, 107, 0.2);
 }
 
 #events .item {
@@ -174,4 +283,45 @@ p {
 	#events .item:nth-of-type(even) .left {
 		margin-left: 0;
 	}
+.eventStat{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    .eventCard {
+        flex-direction: column;
+        width: 80vw;
+        min-width: 300px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .eventCard:nth-child(odd) {
+        /* float: right; */
+        /* margin-right: 50px; */
+        flex-direction: column;
+    }
+    .eventCard:nth-child(even) {
+        /* float: left; */
+        /* margin-left: 50px; */
+        flex-direction: column;
+    }
+    .eventImage {
+        display: flex;
+        width: fit-content;
+        /* background-color: yellow; */
+    }
+    .eventCard:nth-child(odd) .eventStat {
+        /* display: flex; */
+        width: fit-content;
+        text-align: center;
+        /* background-color: yellowgreen; */
+    }
+    .eventCard:nth-child(even) .eventStat {
+        /* display: flex; */
+        width: fit-content;
+        text-align: center;
+        /* background-color: yellowgreen; */
+    }
 }
