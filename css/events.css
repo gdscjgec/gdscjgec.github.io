@@ -7,8 +7,7 @@
 }
 
 body {
-  background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center /
-    cover;
+  background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center / cover;
 }
 
 img {
@@ -123,7 +122,7 @@ p {
 }
 
 #events .item .left .img::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;

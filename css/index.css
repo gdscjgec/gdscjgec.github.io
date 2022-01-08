@@ -1,274 +1,273 @@
 /* ********************************* Index Page Styles ********************************* */
 
 body {
-    background: var(--lightwhite);
+  background: var(--lightwhite);
 }
 
 /* ********************************* Banner ********************************* */
 
 section#banner {
-    position: relative;
-    padding: 2rem;
-    width: 100%;
-    height: 100vh;
-    background: var(--lightwhite) url(../assets/img/banner.png) fixed no-repeat
-        50% 50% / cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  padding: 2rem;
+  width: 100%;
+  height: 100vh;
+  background: var(--lightwhite) url(../assets/img/banner.png) fixed no-repeat 50% 50% / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section#banner div.banner {
-    position: relative;
-    margin: 1rem;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border-radius: 10px;
-    z-index: 1;
+  position: relative;
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border-radius: 10px;
+  z-index: 1;
 }
 
 section#banner div.banner::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(6px);
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 16px rgba(50, 69, 107, 0.25);
-    border-radius: 10px;
-    z-index: -1;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    transition-delay: 1s;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 16px rgba(50, 69, 107, 0.25);
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  transition-delay: 1s;
 }
 
 /* ********************************* Banner Contents ********************************* */
 
 section#banner div.banner object {
-    margin: 2rem auto;
-    width: 50rem;
-    height: auto;
-    user-select: none;
+  margin: 2rem auto;
+  width: 50rem;
+  height: auto;
+  user-select: none;
 }
 
 section#banner div.banner h1,
 section#banner div.banner h2 {
-    position: relative;
-    margin: 1rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section#banner div.banner h1 span {
-    font-size: 8rem;
-    font-weight: 600;
-    font-family: 'Aware', var(--mainfont);
-    color: var(--offblack);
-    -webkit-text-stroke: 1px var(--offblack);
-    text-align: center;
-    clip-path: inset(0 100% 0 0);
-    transition: all 0.6s cubic-bezier(0.76, 0, 0.24, 1);
-    transition-delay: 0.6s;
+  font-size: 8rem;
+  font-weight: 600;
+  font-family: "Aware", var(--mainfont);
+  color: var(--offblack);
+  -webkit-text-stroke: 1px var(--offblack);
+  text-align: center;
+  clip-path: inset(0 100% 0 0);
+  transition: all 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+  transition-delay: 0.6s;
 }
 
 section#banner div.banner h2 span {
-    font-size: 3.5rem;
-    font-weight: 600;
-    font-family: var(--primaryfont_serif);
-    color: var(--lightblack);
-    letter-spacing: 0.5px;
-    text-align: center;
-    clip-path: inset(0 100% 0 0);
-    transition: all 0.6s cubic-bezier(0.76, 0, 0.24, 1);
-    transition-delay: 1s;
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: var(--primaryfont_serif);
+  color: var(--lightblack);
+  letter-spacing: 0.5px;
+  text-align: center;
+  clip-path: inset(0 100% 0 0);
+  transition: all 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+  transition-delay: 1s;
 }
 
 section#banner div.banner h1 div.clipBg,
 section#banner div.banner h2 div.clipBg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    clip-path: inset(0 100% 0 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  clip-path: inset(0 100% 0 0);
 }
 
 section#banner div.banner h4 {
-    margin: 0.5rem auto;
-    font-size: 4rem;
-    font-weight: 600;
-    font-family: var(--primaryfont_serif);
-    color: var(--lightblack);
-    letter-spacing: 0.5px;
-    text-align: center;
-    transform: scale(0);
-    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.61, 0.97);
+  margin: 0.5rem auto;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: var(--primaryfont_serif);
+  color: var(--lightblack);
+  letter-spacing: 0.5px;
+  text-align: center;
+  transform: scale(0);
+  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.61, 0.97);
 }
 
 section#banner div.banner a.btn_start {
-    margin: 2rem auto;
-    padding: 0.6rem 3.2rem;
-    font-size: 2.5rem;
-    font-weight: 600;
-    font-family: var(--primaryfont_sans);
-    color: var(--darkwhite);
-    background: var(--darkblack);
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    letter-spacing: 0.5px;
-    transform: scale(0);
-    transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.61, 0.97);
-    transition-delay: 0.8s;
+  margin: 2rem auto;
+  padding: 0.6rem 3.2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: var(--primaryfont_sans);
+  color: var(--darkwhite);
+  background: var(--darkblack);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+  transform: scale(0);
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.61, 0.97);
+  transition-delay: 0.8s;
 }
 
 /* ********************************* Loaded Animation ********************************* */
 
 section#banner div.banner.loaded::before {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 section#banner div.banner.loaded h1 span,
 section#banner div.banner.loaded h2 span {
-    clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
 }
 
 section#banner div.banner.loaded h1 div.clipBg {
-    background: var(--primaryred);
-    animation: clip_path 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards 0s;
+  background: var(--primaryred);
+  animation: clip_path 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards 0s;
 }
 
 section#banner div.banner.loaded h2 div.clipBg {
-    background: var(--primarygreen);
-    animation: clip_path 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards 0.4s;
+  background: var(--primarygreen);
+  animation: clip_path 0.8s cubic-bezier(0.87, 0, 0.13, 1) forwards 0.4s;
 }
 
 @keyframes clip_path {
-    0% {
-        clip-path: inset(0 100% 0 0);
-    }
-    50% {
-        clip-path: inset(0 0 0 0);
-    }
-    100% {
-        clip-path: inset(0 0 0 100%);
-    }
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  50% {
+    clip-path: inset(0 0 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 100%);
+  }
 }
 
 section#banner div.banner.loaded h4,
 section#banner div.banner.loaded a.btn_start {
-    transform: scale(1);
+  transform: scale(1);
 }
 
 /* ********************************* Responsive Medias ********************************* */
 
 @media (max-width: 1240px) {
-    section#banner div.banner object {
-        width: 40rem;
-    }
-    section#banner div.banner h1 span {
-        font-size: 7rem;
-    }
+  section#banner div.banner object {
+    width: 40rem;
+  }
+  section#banner div.banner h1 span {
+    font-size: 7rem;
+  }
 }
 
 @media (max-width: 768px) {
-    section#banner div.banner object {
-        width: 30rem;
-    }
-    section#banner div.banner h1 span {
-        font-size: 6rem;
-    }
-    section#banner div.banner h2 span {
-        font-size: 3rem;
-    }
-    section#banner div.banner h4 {
-        font-size: 3.5rem;
-    }
+  section#banner div.banner object {
+    width: 30rem;
+  }
+  section#banner div.banner h1 span {
+    font-size: 6rem;
+  }
+  section#banner div.banner h2 span {
+    font-size: 3rem;
+  }
+  section#banner div.banner h4 {
+    font-size: 3.5rem;
+  }
 }
 
 @media (max-width: 472px) {
-    section#banner div.banner object {
-        width: 20rem;
-    }
-    section#banner div.banner h1 span {
-        margin: 2rem auto;
-        font-size: 5rem;
-    }
-    section#banner div.banner h2 span {
-        margin: 1.5rem auto;
-        font-size: 2.5rem;
-    }
-    section#banner div.banner h4 {
-        margin: 1.5rem auto;
-        font-size: 3rem;
-    }
-    section#banner div.banner a.btn_start {
-        margin: 2rem auto;
-        font-size: 2.2rem;
-    }
+  section#banner div.banner object {
+    width: 20rem;
+  }
+  section#banner div.banner h1 span {
+    margin: 2rem auto;
+    font-size: 5rem;
+  }
+  section#banner div.banner h2 span {
+    margin: 1.5rem auto;
+    font-size: 2.5rem;
+  }
+  section#banner div.banner h4 {
+    margin: 1.5rem auto;
+    font-size: 3rem;
+  }
+  section#banner div.banner a.btn_start {
+    margin: 2rem auto;
+    font-size: 2.2rem;
+  }
 }
 
 /* ********************************* Code Svg Object ********************************* */
 
 svg#GDSC {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 svg#GDSC.loaded {
-    visibility: visible;
+  visibility: visible;
 }
 
 svg#GDSC.loaded line {
-    fill: none;
-    stroke-linecap: round;
-    stroke-width: 140px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 140px;
 }
 
 @keyframes line_forward {
-    100% {
-        stroke-dashoffset: 0;
-    }
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
 
 @keyframes line_reverse {
-    100% {
-        stroke-dashoffset: 640;
-    }
+  100% {
+    stroke-dashoffset: 640;
+  }
 }
 
 svg#GDSC.loaded line:nth-child(1) {
-    stroke: var(--primaryyellow);
-    stroke-dasharray: 320;
-    stroke-dashoffset: 320;
-    animation: line_forward 0.4s ease forwards 0.6s;
+  stroke: var(--primaryyellow);
+  stroke-dasharray: 320;
+  stroke-dashoffset: 320;
+  animation: line_forward 0.4s ease forwards 0.6s;
 }
 
 svg#GDSC.loaded line:nth-child(2) {
-    stroke: var(--primarygreen);
-    stroke-dasharray: 320;
-    stroke-dashoffset: 320;
-    animation: line_reverse 0.4s ease forwards 0s;
+  stroke: var(--primarygreen);
+  stroke-dasharray: 320;
+  stroke-dashoffset: 320;
+  animation: line_reverse 0.4s ease forwards 0s;
 }
 
 svg#GDSC.loaded line:nth-child(3) {
-    stroke: var(--primaryred);
-    stroke-dasharray: 320;
-    stroke-dashoffset: 320;
-    animation: line_forward 0.4s ease forwards 0.6s;
+  stroke: var(--primaryred);
+  stroke-dasharray: 320;
+  stroke-dashoffset: 320;
+  animation: line_forward 0.4s ease forwards 0.6s;
 }
 
 svg#GDSC.loaded line:nth-child(4) {
-    stroke: var(--primaryblue);
-    stroke-dasharray: 320;
-    stroke-dashoffset: 320;
-    animation: line_reverse 0.4s ease forwards 0s;
+  stroke: var(--primaryblue);
+  stroke-dasharray: 320;
+  stroke-dashoffset: 320;
+  animation: line_reverse 0.4s ease forwards 0s;
 }
 
 /* ********************************* Styles End ********************************* */

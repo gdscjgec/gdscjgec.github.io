@@ -1,262 +1,261 @@
 /* ********************************* Projects Page Styles ********************************* */
 
 body {
-    background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center /
-        cover;
+  background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center / cover;
 }
 
 /* ********************************* Projects Section ********************************* */
 
 section#projects {
-    position: relative;
-    margin: 10rem auto;
-    padding: 4rem;
+  position: relative;
+  margin: 10rem auto;
+  padding: 4rem;
 }
 
 /* ********************************* Projects Header ********************************* */
 
 section#projects div.projects_header {
-    margin: 1rem auto 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  margin: 1rem auto 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 section#projects div.projects_header h1 {
-    position: relative;
-    margin: 1rem auto;
-    font-size: 4.5rem;
-    font-weight: 600;
-    font-family: var(--mainfont);
-    color: var(--darkblack);
-    text-align: center;
-    letter-spacing: 0.5px;
+  position: relative;
+  margin: 1rem auto;
+  font-size: 4.5rem;
+  font-weight: 600;
+  font-family: var(--mainfont);
+  color: var(--darkblack);
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 section#projects div.projects_header h1::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 50%;
-    height: 1rem;
-    background: var(--primarygreen);
-    border-radius: 4px;
-    opacity: 0.8;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50%;
+  height: 1rem;
+  background: var(--primarygreen);
+  border-radius: 4px;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 section#projects div.projects_header h3 {
-    margin: 0.5rem auto;
-    font-size: 2.5rem;
-    font-weight: 500;
-    font-family: var(--mainfont);
-    color: var(--lightblack);
-    text-align: center;
-    letter-spacing: 0.5px;
+  margin: 0.5rem auto;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: var(--mainfont);
+  color: var(--lightblack);
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 section#projects div.projects_header p {
-    margin: 0.5rem auto;
-    font-size: 2.3rem;
-    font-weight: 500;
-    font-family: var(--mainfont);
-    color: var(--lightblack);
-    text-align: center;
-    letter-spacing: 0.5px;
+  margin: 0.5rem auto;
+  font-size: 2.3rem;
+  font-weight: 500;
+  font-family: var(--mainfont);
+  color: var(--lightblack);
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 section#projects div.projects_header a {
-    margin: 2rem auto;
-    padding: 1.5rem 3rem;
-    background: var(--darkblack);
-    border-radius: 4px;
-    text-decoration: none;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s ease;
+  margin: 2rem auto;
+  padding: 1.5rem 3rem;
+  background: var(--darkblack);
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
 }
 
 section#projects div.projects_header a:hover {
-    background: var(--lightblack);
+  background: var(--lightblack);
 }
 
 section#projects div.projects_header a i {
-    margin: auto 0.2rem;
-    font-size: 3rem;
-    color: var(--darkwhite);
-    vertical-align: top;
+  margin: auto 0.2rem;
+  font-size: 3rem;
+  color: var(--darkwhite);
+  vertical-align: top;
 }
 
 section#projects div.projects_header a span {
-    font-size: 2rem;
-    font-weight: 600;
-    font-family: var(--mainfont);
-    color: var(--darkwhite);
-    text-align: center;
-    letter-spacing: 0.2px;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--mainfont);
+  color: var(--darkwhite);
+  text-align: center;
+  letter-spacing: 0.2px;
 }
 
 /* ********************************* Projects Contents ********************************* */
 
 section#projects div.projects_contents {
-    margin: 10rem 4rem 2rem;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+  margin: 10rem 4rem 2rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
 }
 
 section#projects div.projects_contents .project_card {
-    position: relative;
-    margin: auto;
-    padding: 2rem 3rem;
-    width: 100%;
-    background: var(--darkwhite);
-    border-radius: 15px;
-    border: 2px solid rgba(0, 0, 0, 0.06);
-    transition: all 0.4s ease;
-    overflow: hidden;
+  position: relative;
+  margin: auto;
+  padding: 2rem 3rem;
+  width: 100%;
+  background: var(--darkwhite);
+  border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.4s ease;
+  overflow: hidden;
 }
 
 section#projects div.projects_contents .project_card::after {
-    content: '';
-    position: absolute;
-    bottom: -8rem;
-    right: -8rem;
-    width: 15rem;
-    height: 15rem;
-    background: var(--primarygreen);
-    opacity: 0.8;
-    border-radius: 2rem;
-    transform: scale(1) rotate(45deg);
-    transition: all 0.4s ease;
+  content: "";
+  position: absolute;
+  bottom: -8rem;
+  right: -8rem;
+  width: 15rem;
+  height: 15rem;
+  background: var(--primarygreen);
+  opacity: 0.8;
+  border-radius: 2rem;
+  transform: scale(1) rotate(45deg);
+  transition: all 0.4s ease;
 }
 
 section#projects div.projects_contents .project_card:hover {
-    border: 2px solid rgba(0, 0, 0, 0);
-    box-shadow: 0 0 20px rgba(155, 164, 180, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0);
+  box-shadow: 0 0 20px rgba(155, 164, 180, 0.3);
 }
 section#projects div.projects_contents .project_card:hover:after {
-    transform: scale(0.9) rotate(0deg);
+  transform: scale(0.9) rotate(0deg);
 }
 
 section#projects div.projects_contents .project_card h2 {
-    margin: 1rem auto;
-    font-size: 2.6rem;
-    font-weight: 600;
-    font-family: var(--mainfont);
-    color: var(--lightblack);
-    text-align: left;
-    letter-spacing: 0.2px;
+  margin: 1rem auto;
+  font-size: 2.6rem;
+  font-weight: 600;
+  font-family: var(--mainfont);
+  color: var(--lightblack);
+  text-align: left;
+  letter-spacing: 0.2px;
 }
 
 section#projects div.projects_contents .project_card a.repo {
-    margin: 1rem auto;
-    font-size: 2rem;
-    font-weight: 600;
-    font-family: var(--primaryfont_mono);
-    color: var(--primarygreen);
-    text-decoration: none;
-    text-align: left;
+  margin: 1rem auto;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--primaryfont_mono);
+  color: var(--primarygreen);
+  text-decoration: none;
+  text-align: left;
 }
 
 section#projects div.projects_contents .project_card a.repo:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 section#projects div.projects_contents .project_card p {
-    margin: 1rem auto;
-    font-size: 1.6rem;
-    font-weight: 500;
-    font-family: var(--mainfont);
-    color: var(--lightblack);
-    text-align: left;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+  margin: 1rem auto;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: var(--mainfont);
+  color: var(--lightblack);
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 section#projects div.projects_contents .project_card .links {
-    position: relative;
-    margin: 3rem 0 2rem;
+  position: relative;
+  margin: 3rem 0 2rem;
 }
 
 section#projects div.projects_contents .project_card .links a {
-    margin: auto;
-    margin-right: 1rem;
-    padding: 0.6rem 1.5rem;
-    display: inline-block;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-family: var(--mainfont);
-    color: var(--darkwhite);
-    text-align: center;
-    letter-spacing: 0.5px;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: all 0.2s ease;
+  margin: auto;
+  margin-right: 1rem;
+  padding: 0.6rem 1.5rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--mainfont);
+  color: var(--darkwhite);
+  text-align: center;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 section#projects div.projects_contents .project_card .links a:hover {
-    color: var(--darkblack) !important;
-    background: transparent !important;
+  color: var(--darkblack) !important;
+  background: transparent !important;
 }
 
 section#projects div.projects_contents .project_card .links a:nth-child(1) {
-    background: var(--primarygreen);
-    border: 2.5px solid var(--primarygreen);
+  background: var(--primarygreen);
+  border: 2.5px solid var(--primarygreen);
 }
 
 section#projects div.projects_contents .project_card .links a:nth-child(2) {
-    background: var(--lightblack);
-    border: 2.5px solid var(--lightblack);
+  background: var(--lightblack);
+  border: 2.5px solid var(--lightblack);
 }
 
 /* ********************************* Responsive Media ********************************* */
 
 @media (max-width: 992px) {
-    section#projects div.projects_contents {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
+  section#projects div.projects_contents {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
 }
 
 @media (max-width: 768px) {
-    section#projects div.projects_header h1 {
-        font-size: 3.5rem;
-    }
-    section#projects div.projects_header h3 {
-        font-size: 2.3rem;
-    }
+  section#projects div.projects_header h1 {
+    font-size: 3.5rem;
+  }
+  section#projects div.projects_header h3 {
+    font-size: 2.3rem;
+  }
 
-    section#projects div.projects_header a {
-        padding: 1rem 2rem;
-    }
-    section#projects div.projects_header a i {
-        font-size: 2.8rem;
-    }
-    section#projects div.projects_header a span {
-        font-size: 1.8rem;
-    }
+  section#projects div.projects_header a {
+    padding: 1rem 2rem;
+  }
+  section#projects div.projects_header a i {
+    font-size: 2.8rem;
+  }
+  section#projects div.projects_header a span {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 472px) {
-    section#projects div.projects_contents {
-        margin: 10rem 0 2rem;
-    }
+  section#projects div.projects_contents {
+    margin: 10rem 0 2rem;
+  }
 }
 
 @media (max-width: 352px) {
-    section#projects div.projects_contents .project_card .links {
-        margin: 2rem 0;
-        z-index: 2;
-    }
-    section#projects div.projects_contents .project_card .links a {
-        margin: 0.5rem;
-        padding: 0.5rem 1rem;
-    }
+  section#projects div.projects_contents .project_card .links {
+    margin: 2rem 0;
+    z-index: 2;
+  }
+  section#projects div.projects_contents .project_card .links a {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
 }
 
 /* ********************************* Styles End ********************************* */

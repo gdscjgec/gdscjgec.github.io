@@ -1,246 +1,245 @@
 /* ********************************* Contact Page Styles ********************************* */
 
 body {
-    background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center /
-        cover;
+  background: url(../assets/img/bg_shape.png) var(--darkwhite) fixed center / cover;
 }
 
 /* ********************************* Contact Section ********************************* */
 
 section#contact div.contact {
-    position: relative;
-    margin: 10rem auto;
-    padding: 1rem;
+  position: relative;
+  margin: 10rem auto;
+  padding: 1rem;
 }
 
 /* ********************************* Contact Title ********************************* */
 
 div.contact div.contact_title {
-    margin: 4rem;
-    position: relative;
+  margin: 4rem;
+  position: relative;
 }
 
 div.contact div.contact_title::after {
-    content: '';
-    position: absolute;
-    left: -2rem;
-    bottom: 0;
-    height: 100%;
-    width: 6px;
-    border-radius: 4px;
-    background: var(--primaryblue);
+  content: "";
+  position: absolute;
+  left: -2rem;
+  bottom: 0;
+  height: 100%;
+  width: 6px;
+  border-radius: 4px;
+  background: var(--primaryblue);
 }
 
 div.contact div.contact_title h1 {
-    margin: 1rem auto;
-    font-size: 4rem;
-    font-weight: 600;
-    font-family: var(--mainfont);
-    color: var(--lightblack);
-    letter-spacing: 0.2px;
+  margin: 1rem auto;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: var(--mainfont);
+  color: var(--lightblack);
+  letter-spacing: 0.2px;
 }
 
 div.contact div.contact_title h2 {
-    margin: 1rem auto;
-    font-size: 3rem;
-    font-weight: 600;
-    font-family: var(--mainfont);
-    color: var(--lightblack);
+  margin: 1rem auto;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: var(--mainfont);
+  color: var(--lightblack);
 }
 
 /* ********************************* Contact Form ********************************* */
 
 div.contact div.contact_form {
-    margin: 4rem 1rem;
-    position: relative;
-    background: var(--lightwhite);
-    box-shadow: 0 4px 12px rgba(50, 69, 107, 0.2);
-    border-radius: 10px;
-    overflow: hidden;
+  margin: 4rem 1rem;
+  position: relative;
+  background: var(--lightwhite);
+  box-shadow: 0 4px 12px rgba(50, 69, 107, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 /* ********************************* Form ********************************* */
 
 div.contact div.contact_form form {
-    margin: auto;
-    padding: 2rem;
-    position: relative;
+  margin: auto;
+  padding: 2rem;
+  position: relative;
 }
 
 div.contact div.contact_form form .input-group {
-    position: relative;
-    margin: 0.5rem auto;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+  position: relative;
+  margin: 0.5rem auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 div.contact div.contact_form form .input-group label {
-    margin: 0.5rem 0;
-    font-size: 1.8rem;
-    font-weight: 500;
-    font-family: var(--mainfont);
-    color: var(--lightblack);
-    letter-spacing: 0.5px;
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: var(--mainfont);
+  color: var(--lightblack);
+  letter-spacing: 0.5px;
 }
 
 div.contact div.contact_form form .input-group input,
 div.contact div.contact_form form .input-group textarea {
-    margin: 0.5rem 0;
-    width: 100%;
-    font-size: 1.8rem;
-    font-weight: 600;
-    font-family: var(--mainfont);
-    color: var(--lightblack);
-    background: transparent;
-    border: none;
-    border-bottom: 2px solid var(--lightgrey);
-    letter-spacing: 1px;
-    outline: none;
-    transition: all 0.2s ease;
+  margin: 0.5rem 0;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: var(--mainfont);
+  color: var(--lightblack);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--lightgrey);
+  letter-spacing: 1px;
+  outline: none;
+  transition: all 0.2s ease;
 }
 
 div.contact div.contact_form form .input-group input:focus,
 div.contact div.contact_form form .input-group textarea:focus {
-    border-bottom: 2px solid var(--primaryblue);
+  border-bottom: 2px solid var(--primaryblue);
 }
 
 div.contact div.contact_form form button.btn-submit {
-    margin: 1rem 2rem 3rem;
-    padding: 1rem 3rem;
-    font-size: 1.8rem;
-    font-weight: 500;
-    font-family: var(--mainfont);
-    color: var(--darkwhite);
-    background: var(--primaryblue);
-    border-radius: 2px;
-    box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.1);
-    transition: all 0.2s ease;
+  margin: 1rem 2rem 3rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: var(--mainfont);
+  color: var(--darkwhite);
+  background: var(--primaryblue);
+  border-radius: 2px;
+  box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
 }
 
 /* ********************************* Follow Us ********************************* */
 
 div.contact div.contact_form .follow {
-    padding: 2rem 4rem;
-    position: relative;
-    background: var(--primaryblue);
+  padding: 2rem 4rem;
+  position: relative;
+  background: var(--primaryblue);
 }
 
 div.contact div.contact_form .follow h3 {
-    margin: 1rem 0;
-    font-size: 3.5rem;
-    font-weight: 600;
-    font-family: var(--mainfont);
-    color: var(--darkwhite);
-    letter-spacing: 0.5px;
+  margin: 1rem 0;
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: var(--mainfont);
+  color: var(--darkwhite);
+  letter-spacing: 0.5px;
 }
 
 div.contact div.contact_form .follow img {
-    margin: 3rem 0;
-    width: 60%;
-    height: auto;
+  margin: 3rem 0;
+  width: 60%;
+  height: auto;
 }
 
 /* Contact Links */
 
 div.contact div.contact_form .follow .contact_link {
-    margin: 3rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 div.contact div.contact_form .follow .contact_link a {
-    margin: 1rem 0;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  margin: 1rem 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 div.contact div.contact_form .follow .contact_link a i {
-    margin: 0 0.5rem;
-    font-size: 2.5rem;
-    color: var(--lightwhite);
-    vertical-align: bottom;
+  margin: 0 0.5rem;
+  font-size: 2.5rem;
+  color: var(--lightwhite);
+  vertical-align: bottom;
 }
 
 div.contact div.contact_form .follow .contact_link a span {
-    margin: auto 0.5rem;
-    font-size: 1.8rem;
-    font-weight: 500;
-    font-family: var(--mainfont);
-    color: var(--lightwhite);
-    letter-spacing: 0.5px;
-    line-height: 1.5;
+  margin: auto 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: var(--mainfont);
+  color: var(--lightwhite);
+  letter-spacing: 0.5px;
+  line-height: 1.5;
 }
 
 /* Social Links */
 
 div.contact div.contact_form .follow .social_link {
-    margin: 2rem 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 div.contact div.contact_form .follow .social_link a {
-    margin: 1rem;
-    text-decoration: none;
-    transition: all 0.3s ease;
+  margin: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 div.contact div.contact_form .follow .social_link a i {
-    margin: auto;
-    font-size: 3rem;
-    color: var(--lightwhite);
+  margin: auto;
+  font-size: 3rem;
+  color: var(--lightwhite);
 }
 
 div.contact div.contact_form .follow .social_link a:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 /* ********************************* Responsive Medias ********************************* */
 
 @media (max-width: 992px) {
-    div.contact div.contact_form form {
-        padding: 1rem;
-    }
-    div.contact div.contact_form .follow {
-        padding: 2rem;
-    }
+  div.contact div.contact_form form {
+    padding: 1rem;
+  }
+  div.contact div.contact_form .follow {
+    padding: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
-    div.contact div.contact_form form {
-        padding: 2rem;
-    }
-    div.contact div.contact_form .follow {
-        padding: 2rem 4rem;
-    }
-    div.contact div.contact_form form button.btn-submit {
-        margin: 1rem auto 3rem;
-        width: 100%;
-    }
+  div.contact div.contact_form form {
+    padding: 2rem;
+  }
+  div.contact div.contact_form .follow {
+    padding: 2rem 4rem;
+  }
+  div.contact div.contact_form form button.btn-submit {
+    margin: 1rem auto 3rem;
+    width: 100%;
+  }
 }
 
 @media (max-width: 472px) {
-    div.contact div.contact_form form {
-        padding: 2rem 1rem;
-    }
-    div.contact div.contact_form form .input-group {
-        padding: 1rem 0.5rem;
-    }
-    div.contact div.contact_form .follow {
-        padding: 4rem 2rem;
-    }
-    div.contact div.contact_form {
-        box-shadow: 0 2px 4px rgba(50, 69, 107, 0.6);
-    }
+  div.contact div.contact_form form {
+    padding: 2rem 1rem;
+  }
+  div.contact div.contact_form form .input-group {
+    padding: 1rem 0.5rem;
+  }
+  div.contact div.contact_form .follow {
+    padding: 4rem 2rem;
+  }
+  div.contact div.contact_form {
+    box-shadow: 0 2px 4px rgba(50, 69, 107, 0.6);
+  }
 }
 
 /* ********************************* Styles End ********************************* */

@@ -46,10 +46,10 @@ This is a beginner friendly project and we hope to build an amazing website from
 
 The tech stack we will be using:
 
--   HTML
--   CSS
--   JavaScript
--   Bootstrap
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
 
 <!-- USAGE EXAMPLES -->
 
@@ -75,9 +75,9 @@ The tech stack we will be using:
 
 ## Before You Start
 
--   Always maintain the **file format & folder structure.**
--   Maintain proper file names (i.e, for images).
--   Don't use capital or spaces for files names instead use `_` or `-`.
+- Always maintain the **file format & folder structure.**
+- Maintain proper file names (i.e, for images).
+- Don't use capital or spaces for files names instead use `_` or `-`.
 
 ---
 
