@@ -37,43 +37,43 @@
 
 /* Noto & Poppins */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 
 /* **************************** Site General Settings **************************** */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* **************************** Responsive Font Size **************************** */
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 @media (max-width: 992px) {
-    html {
-        font-size: 60%;
-    }
+  html {
+    font-size: 60%;
+  }
 }
 
 @media (max-width: 768px) {
-    html {
-        font-size: 55%;
-    }
+  html {
+    font-size: 55%;
+  }
 }
 
 /* **************************** Body Settings **************************** */
 
 body {
-    background: var(--darkwhite);
-    font-family: var(--mainfont);
+  background: var(--darkwhite);
+  font-family: var(--mainfont);
 }
 
 /* **************************** Root Variables **************************** */
@@ -81,31 +81,31 @@ body {
 /* Default Root (Don't Change This) */
 
 :root {
-    /* Default Colors */
-    --darkblack: #3c434e;
-    --lightblack: #495464;
-    --offblack: #32456b;
-    --darkwhite: #ffffff;
-    --lightwhite: #f7fafc;
-    --lightgrey: #9ba4b4;
-    --darkgrey: #787a91;
+  /* Default Colors */
+  --darkblack: #3c434e;
+  --lightblack: #495464;
+  --offblack: #32456b;
+  --darkwhite: #ffffff;
+  --lightwhite: #f7fafc;
+  --lightgrey: #9ba4b4;
+  --darkgrey: #787a91;
 
-    /* Theme Colors */
-    --primaryred: #f74037;
-    --primaryblue: #4a90f4;
-    --primarygreen: #14b25f;
-    --primaryyellow: #ffb808;
+  /* Theme Colors */
+  --primaryred: #f74037;
+  --primaryblue: #4a90f4;
+  --primarygreen: #14b25f;
+  --primaryyellow: #ffb808;
 
-    /*
+  /*
         If you want a low opacity color then just use "rgba" of this colors and 
         change the "Alpha" value to decrease the opacity.
     */
 
-    /* Default Fonts */
-    --mainfont: 'Poppins', sans-serif;
-    --primaryfont_sans: 'Noto Sans Display', sans-serif;
-    --primaryfont_serif: 'Noto Serif', serif;
-    --primaryfont_mono: 'Noto Sans Mono', monospace;
+  /* Default Fonts */
+  --mainfont: "Poppins", sans-serif;
+  --primaryfont_sans: "Noto Sans Display", sans-serif;
+  --primaryfont_serif: "Noto Serif", serif;
+  --primaryfont_mono: "Noto Sans Mono", monospace;
 }
 
 /* ******************************************************** */
@@ -115,27 +115,27 @@ body {
 */
 
 :root {
-    --customcolor: #6f6bfa;
-    --customfont: ;
+  --customcolor: #6f6bfa;
+  --customfont: ;
 }
 
 /* **************************** Scroll Bar **************************** */
 
 ::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-    background: transparent;
+  width: 8px;
+  height: 8px;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--lightblack);
-    border-radius: 2px;
+  background: var(--lightblack);
+  border-radius: 2px;
 }
 
 /* **************************** Selection **************************** */
 
 ::selection {
-    color: var(--darkwhite);
-    background: var(--customcolor);
+  color: var(--darkwhite);
+  background: var(--customcolor);
 }
 
 /* **************************** User Select None **************************** */
@@ -144,17 +144,17 @@ a,
 button,
 img,
 .noselect {
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 button.btn:active,
 button.btn:focus,
 a.btn:active,
 a.btn:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 /* **************************** Custom Fonts (Just in Case) **************************** */
@@ -162,8 +162,8 @@ a.btn:focus {
 /* We have included one font for special headings. */
 
 @font-face {
-    font-family: 'Aware';
-    src: url(../assets/fonts/Aware.ttf);
+  font-family: "Aware";
+  src: url(../assets/fonts/Aware.ttf);
 }
 
 /* **************************** Styles End **************************** */
