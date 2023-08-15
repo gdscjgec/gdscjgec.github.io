@@ -6,7 +6,7 @@ let facul = [
   {
     id: 0,
     name: "Dr. Dipak Kumar Kole",
-    avatar: "../assets/img/team/Dr.DKK.jpg",
+    avatar: "../assets/img/team/Dr.DKK.jfif",
     badges: `
       <span class="red">Professor</span>
       <span class="green">JGEC</span>
@@ -43,7 +43,7 @@ let coreMembersDetails2023 = [
   {
     id:0,
     name:"Zaid Mahmud",
-    avatar: "../assets/img/team/Zaid_Mahmud.JPG",
+    avatar: "../assets/img/team/Zaid_Mahmud.jfif",
     badges: `
       <span class="green">Android</span>
       <span class="blue">Lead</span>
@@ -56,7 +56,7 @@ let coreMembersDetails2023 = [
   {
     id:1,
     name:"Arjun Choudhury",
-    avatar: "../assets/img/team/Arjun_Choudhury.JPG",
+    avatar: "../assets/img/team/Arjun_Choudhury.jfif",
     badges: `
       <span class="red">Web</span>
       <span class="yellow">Lead</span>
@@ -168,7 +168,7 @@ let exCoreMemberDetails2023 = [
   {
     id: 0,
     name: "Subhajit Barman",
-    avatar: "../assets/img/team/Subhajit_Barman.jpg",
+    avatar: "../assets/img/team/Subhajit_Barman.jfif",
     badges: `
       <span class="blue">Web</span>
       <span class="green">Team</span>

@@ -128,7 +128,7 @@ let exCoreMemberDetails2022 = [
   {
     id: 0,
     name: "Sanket Ghosh",
-    avatar: "../assets/img/team/Sanket_Ghosh.jpg",
+    avatar: "../assets/img/team/Sanket_Ghosh.jfif",
     badges: `
       <span class="blue">AI</span>
       <span class="green">ML</span>
@@ -156,7 +156,7 @@ let exCoreMemberDetails2022 = [
   {
     id: 3,
     name: "Ayan Pal",
-    avatar: "../assets/img/team/Ayan_Pal.jpg",
+    avatar: "../assets/img/team/Ayan_Pal.jfif",
     badges: `
       <span class="red">Web</span>
       <span class="blue">Team</span>
