@@ -51,7 +51,7 @@ let coreMembersDetails2023 = [
     cardBorderColor: "red",
     socialGithubLink: "https://github.com/Zaid-0504",
     socialLinkedinLink: "https://www.linkedin.com/in/zaid-mahmud-7b6b90249/",
-    socialTwitterLink: "#",
+    socialTwitterLink: "https://twitter.com/mahmud_zaid1435?t=zEL5H2ZMh2ScsstrM2a1HQ&s=09",
   },
   {
     id:1,
@@ -62,7 +62,7 @@ let coreMembersDetails2023 = [
       <span class="yellow">Lead</span>
     `,
     cardBorderColor: "blue",
-    socialGithubLink: "#",
+    socialGithubLink: "https://github.com/arjunchoudhury07",
     socialLinkedinLink: "https://www.linkedin.com/in/arjun-choudhury-469671227/",
     socialTwitterLink: "#",
   },
@@ -75,9 +75,9 @@ let coreMembersDetails2023 = [
       <span class="red">Lead</span>
     `,
     cardBorderColor: "green",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/Sayan404",
+    socialLinkedinLink: "https://www.linkedin.com/in/sayan404",
+    socialTwitterLink: "https://twitter.com/SayMa404",
   },
   {
     id:3,
@@ -88,9 +88,9 @@ let coreMembersDetails2023 = [
       <span class="blue">Lead</span>
     `,
     cardBorderColor: "yellow",
-    socialGithubLink: "#",
+    socialGithubLink: "https://github.com/Abhigyan103",
     socialLinkedinLink: "https://www.linkedin.com/in/abhigyan103/",
-    socialTwitterLink: "#",
+    socialTwitterLink: "https://twitter.com/Abhigyan103",
   },
   {
     id:4,
@@ -101,8 +101,8 @@ let coreMembersDetails2023 = [
       <span class="red">Lead</span>
     `,
     cardBorderColor: "yellow",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/DRJ2002",
+    socialLinkedinLink: "https://www.linkedin.com/in/dhiraj-thakur-7145a3229",
     socialTwitterLink: "#",
   },
   {
@@ -115,8 +115,8 @@ let coreMembersDetails2023 = [
       <span class="yellow">Lead</span>
     `,
     cardBorderColor: "green",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/Arkarik01",
+    socialLinkedinLink: "https://www.linkedin.com/in/arkamitra-ghosh-aba459226/",
     socialTwitterLink: "#",
   },
   {
@@ -128,9 +128,9 @@ let coreMembersDetails2023 = [
       <span class="green">Lead</span>
     `,
     cardBorderColor: "red",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/Sanket0S",
+    socialLinkedinLink: "https://www.linkedin.com/in/sanket-chowdhury-004139274",
+    socialTwitterLink: "https://twitter.com/Sanket_0s",
   },
   {
     id:7,
@@ -142,8 +142,8 @@ let coreMembersDetails2023 = [
       <span class="green">Lead</span>
     `,
     cardBorderColor: "blue",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/AtriSukul1508",
+    socialLinkedinLink: "https://www.linkedin.com/in/atri-sukul-35a9b022a",
     socialTwitterLink: "#",
   },
   {
@@ -156,9 +156,10 @@ let coreMembersDetails2023 = [
       <span class="green">Lead</span>
     `,
     cardBorderColor: "blue",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+
+    socialGithubLink: "https://github.com/AkashMondal61",
+    socialLinkedinLink: "https://www.linkedin.com/in/akash-mondal-691608225",
+    socialTwitterLink: "https://twitter.com/AkashMonda78882",
   },
 ]
 
@@ -189,9 +190,9 @@ let exCoreMemberDetails2023 = [
     `,
     cardBorderColor: "blue",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/rahulisbusy",
+    socialLinkedinLink: "https://www.linkedin.com/in/pritam-chakraborty-0b74b4243",
+    socialTwitterLink: "https://twitter.com/itsrahul2003?t=9IcTpt7P8-C7JuMypiJpVw&s=09",
   },
   {
     id: 2,
@@ -206,7 +207,7 @@ let exCoreMemberDetails2023 = [
     cardBorderColor: "yellow",
 
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/aditya-saha-607110254/",
     socialTwitterLink: "#",
   },
   {
@@ -221,9 +222,9 @@ let exCoreMemberDetails2023 = [
     `,
     cardBorderColor: "green",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/SouhardyaBanerjee",
+    socialLinkedinLink: "https://www.linkedin.com/in/souhardyabanerjee",
+    socialTwitterLink: "https://twitter.com/SouhardyaB94401",
   },
   {
     id: 4,
@@ -237,9 +238,9 @@ let exCoreMemberDetails2023 = [
     `,
     cardBorderColor: "yellow",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/Darkchocolate-raj",
+    socialLinkedinLink: "https://www.linkedin.com/in/soham-ahmed-molla-29b381254/",
+    socialTwitterLink: "https://twitter.com/sohamahmed_01",
   },
   {
     id: 5,
@@ -253,9 +254,9 @@ let exCoreMemberDetails2023 = [
     `,
     cardBorderColor: "green",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/gauravthedeveloper",
+    socialLinkedinLink: "https://www.linkedin.com/in/gourabmodak",
+    socialTwitterLink: "https://twitter.com/gourabmodak28?t=alfPSqNWVkOgkMBD86ZoLA&s=09",
   },
   {
     id: 6,
@@ -269,9 +270,9 @@ let exCoreMemberDetails2023 = [
     `,
     cardBorderColor: "red",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/flawed-hooman",
+    socialLinkedinLink: "https://www.linkedin.com/in/urnisha-paul-277689254",
+    socialTwitterLink: "https://twitter.com/flawed_hooman?t=0NYTGURa0HWgfBd3FBYJSg&s=09",
   },
   {
     id: 7,
@@ -285,8 +286,8 @@ let exCoreMemberDetails2023 = [
     `,
     cardBorderColor: "blue",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/spandan-bhattacharya",
+    socialLinkedinLink: "https://www.linkedin.com/in/spandan-bhattacharya-02509b227",
     socialTwitterLink: "#",
   },
   {
@@ -301,9 +302,9 @@ let exCoreMemberDetails2023 = [
     `,
     cardBorderColor: "yellow",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://www.linkedin.com/in/kushaljgec2025",
+    socialLinkedinLink: "https://github.com/kushaljgec2025",
+    socialTwitterLink: "https://twitter.com/kg_codex2?t=f02cLkP21z1Jjuk476mmMw&s=09",
   }
 ]
 
@@ -328,7 +329,7 @@ Object.values(facul).map((val) => {
 
             <div class="social">
               
-                <a href="${val.socialLinkedinLink}" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="${val.socialLinkedinLink}"><i class="bx bxl-linkedin"></i></a>
                 
             </div>
         </div>
@@ -345,9 +346,9 @@ Object.values(leadMemberDetails2023).map((val) => {
             <p>${val.badges}</p>
 
             <div class="social">
-                <a href="${val.socialGithubLink}" target="_blank"><i class="bx bxl-github"></i></a>
-                <a href="${val.socialLinkedinLink}" target="_blank"><i class="bx bxl-linkedin"></i></a>
-                <a href="${val.socialTwitterLink}" target="_blank"><i class="bx bxl-twitter"></i></a>
+                <a href="${val.socialGithubLink}" ><i class="bx bxl-github"></i></a>
+                <a href="${val.socialLinkedinLink}"><i class="bx bxl-linkedin"></i></a>
+                <a href="${val.socialTwitterLink}"><i class="bx bxl-twitter"></i></a>
             </div>
         </div>
     `;
@@ -363,9 +364,9 @@ Object.values(coreMembersDetails2023).map((val) => {
             <p>${val.badges}</p>
 
             <div class="social">
-                <a href="${val.socialGithubLink}" target="_blank"><i class="bx bxl-github"></i></a>
-                <a href="${val.socialLinkedinLink}" target="_blank"><i class="bx bxl-linkedin"></i></a>
-                <a href="${val.socialTwitterLink}" target="_blank"><i class="bx bxl-twitter"></i></a>
+                <a href="${val.socialGithubLink}"><i class="bx bxl-github"></i></a>
+                <a href="${val.socialLinkedinLink}" ><i class="bx bxl-linkedin"></i></a>
+                <a href="${val.socialTwitterLink}"><i class="bx bxl-twitter"></i></a>
             </div>
         </div>
     `;
@@ -383,9 +384,9 @@ Object.values(exCoreMemberDetails2023).map((val) => {
             <p>${val.badges}</p>
 
             <div class="social">
-                <a href="${val.socialGithubLink}" target="_blank"><i class="bx bxl-github"></i></a>
-                <a href="${val.socialLinkedinLink}" target="_blank"><i class="bx bxl-linkedin"></i></a>
-                <a href="${val.socialTwitterLink}" target="_blank"><i class="bx bxl-twitter"></i></a>
+                <a href="${val.socialGithubLink}" ><i class="bx bxl-github"></i></a>
+                <a href="${val.socialLinkedinLink}" ><i class="bx bxl-linkedin"></i></a>
+                <a href="${val.socialTwitterLink}" ><i class="bx bxl-twitter"></i></a>
             </div>
         </div>
     `;
