@@ -8,7 +8,7 @@ let leadMemberDetails = [
   {
     id: 1,
     name: "Niloy Sikdar",
-    avatar: "../assets/img/team/Niloy_Sikdar_Lead_2021.jfif",
+    avatar: "../assets/img/team/Niloy_Sikdar_lead_2021.jfif",
     badges: `
                     <span class="green">2021</span>
                     <span class="blue">GDSC</span>
@@ -59,7 +59,7 @@ let coreMemberDetails = [
   {
     id: 3,
     name: "Namrata Das",
-    avatar: "../assets/img/team/Namrata Das.jfif",
+    avatar: "../assets/img/team/Namrata-Das.jfif",
     badges: `
                     <span class="yellow">DSA</span>
                     <span class="blue">Management</span>
@@ -285,7 +285,7 @@ let excoreMemberDetails = [
   {
     id: 10,
     name: "Mahmood Ahmed",
-    avatar: "../assets/img/team/Mahmood Ahmed.jfif",
+    avatar: "../assets/img/team/Mahmood-Ahmed.jfif",
     badges: `
                     <span class="blue">Native Android</span>
                     <span class="green">Team</span>
