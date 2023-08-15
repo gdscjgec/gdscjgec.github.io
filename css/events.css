@@ -59,7 +59,31 @@ p {
   margin-right: auto;
   margin-bottom: 5rem;
 }
-
+.upcoming-event-text
+{
+  text-align: center;
+  padding: 0 0 7vh 0;
+}
+.view-more{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 21px;
+  border-radius: 40px;
+  font-size: 15px;
+  background: #2f5be7;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+.view-more:hover{
+  background: #007bff;
+  box-shadow: 0 3px 6px rgba(0, 110, 255, 0.4);
+  text-decoration: none;
+}
 .button {
   background: #2f5be7;
   box-shadow: 0 2px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
@@ -160,7 +184,7 @@ p {
     flex-direction: column;
   }
   #events .item .left {
-    width: 100%;
+    width: 90%;
   }
   #events .item .right {
     margin-left: 0;
