@@ -6,7 +6,7 @@ body {
 
 /* ********************************* Projects Section ********************************* */
 
-section#doubts {
+section#doubts {  
   position: relative;
   margin: 10rem auto;
   padding: 4rem;
@@ -14,7 +14,8 @@ section#doubts {
 
 /* ********************************* Projects Header ********************************* */
 
-section#doubts div.doubts_header {
+section#doubts div.doubts_header ,
+section#doubts div.faqs_header {
   margin: 1rem auto 5rem;
   display: flex;
   justify-content: center;
@@ -22,7 +23,8 @@ section#doubts div.doubts_header {
   flex-direction: column;
 }
 
-section#doubts div.doubts_header h1 {
+section#doubts div.doubts_header h1,
+section#doubts div.faqs_header h1 {
   position: relative;
   margin: 1rem auto;
   font-size: 4.5rem;
@@ -41,7 +43,8 @@ section#doubts div.doubts_header div {
   font-size: 1.8rem;
 }
 
-section#doubts div.doubts_header h1::after {
+section#doubts div.doubts_header h1::after ,
+section#doubts div.faqs_header h1::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -55,7 +58,8 @@ section#doubts div.doubts_header h1::after {
   z-index: -1;
 }
 
-section#doubts div.doubts_header h3 {
+section#doubts div.doubts_header h3 ,
+section#doubts div.faqs_header h3 {
   margin: 0.5rem auto;
   font-size: 2.5rem;
   font-weight: 500;
@@ -233,10 +237,12 @@ section#doubts div.doubts_contents .project_card .links a:nth-child(2) {
 }
 
 @media (max-width: 768px) {
-  section#doubts div.doubts_header h1 {
+  section#doubts div.doubts_header h1,
+   section#doubts div.faqs_header h1{
     font-size: 3.5rem;
   }
-  section#doubts div.doubts_header h3 {
+  section#doubts div.doubts_header h3 ,
+  section#doubts div.faqs_header h3 {
     font-size: 2.3rem;
   }
 
