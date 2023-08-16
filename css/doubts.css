@@ -76,6 +76,8 @@ section#doubts div.doubts_header p {
 }
 
 section#doubts div.doubts_header a {
+  display: flex;
+  align-items: center;
   margin: 2rem auto;
   padding: 1.5rem 3rem;
   background: var(--darkblack);
