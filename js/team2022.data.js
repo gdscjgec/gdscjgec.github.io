@@ -16,9 +16,9 @@ let leadMemberDetails2022 = [
                 `,
     cardBorderColor: "red",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/sahilsaha7773",
+    socialLinkedinLink: "https://www.linkedin.com/in/sahil-saha-76478516b/",
+    socialTwitterLink: "https://twitter.com/SahilSaha35194",
   },
   
 ];
@@ -37,7 +37,7 @@ let coreMemberDetails2022 = [
     `,
     cardBorderColor: "red",
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/taki-hasan/",
     socialTwitterLink: "#",
   },
   {
@@ -49,8 +49,8 @@ let coreMemberDetails2022 = [
       <span class="green">Lead</span>
     `,
     cardBorderColor: "blue",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/DarkFalc0n",
+    socialLinkedinLink: "https://www.linkedin.com/in/pratyayroy/",
     socialTwitterLink: "#",
   },
   {
@@ -62,9 +62,9 @@ let coreMemberDetails2022 = [
       <span class="yellow">Lead</span>
     `,
     cardBorderColor: "green",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/code-soham",
+    socialLinkedinLink: "https://www.linkedin.com/in/code-soham/",
+    socialTwitterLink: "https://twitter.com/Sohamhasnt",
   },
   {
     id: 3,
@@ -75,8 +75,8 @@ let coreMemberDetails2022 = [
       <span class="green">Lead</span>
     `,
     cardBorderColor: "yellow",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/shibam-naskar",
+    socialLinkedinLink: "https://www.linkedin.com/in/shibam-naskar-601433203/",
     socialTwitterLink: "#",
   },
   {
@@ -89,7 +89,7 @@ let coreMemberDetails2022 = [
     `,
     cardBorderColor: "blue",
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/ayan710/",
     socialTwitterLink: "#",
   },
   {
@@ -102,9 +102,9 @@ let coreMemberDetails2022 = [
       <span class="green">Lead</span>
     `,
     cardBorderColor: "red",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/NuclearCactus",
+    socialLinkedinLink: "https://www.linkedin.com/in/nuclearcactus/",
+    socialTwitterLink: "https://twitter.com/NuclearCactus",
   },
   {
     id: 5,
@@ -115,8 +115,8 @@ let coreMemberDetails2022 = [
       <span class="green">Lead</span>
     `,
     cardBorderColor: "blue",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/aniketsen123",
+    socialLinkedinLink: "https://www.linkedin.com/in/aniket-sen-28a43b203/",
     socialTwitterLink: "#",
   }
 
@@ -135,8 +135,8 @@ let exCoreMemberDetails2022 = [
       <span class="yellow">Team</span>
     `,
     cardBorderColor: "red",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/snkt0809",
+    socialLinkedinLink: "https://www.linkedin.com/in/sanketghosh0809/",
     socialTwitterLink: "#",
   },
   {
@@ -150,7 +150,7 @@ let exCoreMemberDetails2022 = [
     `,
     cardBorderColor: "blue",
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/priyanshu-kumar-arpeggi15/",
     socialTwitterLink: "#",
   },
   {
@@ -163,7 +163,7 @@ let exCoreMemberDetails2022 = [
     `,
     cardBorderColor: "green",
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/ayan-kumar-pal/",
     socialTwitterLink: "#",
   },
   {
@@ -176,7 +176,7 @@ let exCoreMemberDetails2022 = [
     `,
     cardBorderColor: "yellow",
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/soham-mukherjee-b67125203/",
     socialTwitterLink: "#",
   },
   {
@@ -188,9 +188,9 @@ let exCoreMemberDetails2022 = [
       <span class="green">Team</span>
     `,
     cardBorderColor: "blue",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/Poulami2515",
+    socialLinkedinLink: "https://www.linkedin.com/in/poulami-paul-69a988220/",
+    socialTwitterLink: "https://twitter.com/_Lustre_1_",
   },
   {
     id: 6,
@@ -201,8 +201,8 @@ let exCoreMemberDetails2022 = [
       <span class="green">Team</span>
     `,
     cardBorderColor: "yellow",
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/nisha331",
+    socialLinkedinLink: "https://www.linkedin.com/in/nisha-yadav-2950351ab/",
     socialTwitterLink: "#",
   },
   {
@@ -215,7 +215,7 @@ let exCoreMemberDetails2022 = [
     `,
     cardBorderColor: "red",
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/shreyashi-dasgupta-a75897225/",
     socialTwitterLink: "#",
   },
   {
@@ -228,7 +228,7 @@ let exCoreMemberDetails2022 = [
     `,
     cardBorderColor: "green",
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/tunnisha-das-gupta-a43231204/",
     socialTwitterLink: "#",
   }
 

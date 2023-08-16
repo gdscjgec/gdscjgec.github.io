@@ -143,7 +143,7 @@ let coreMemberDetails = [
                 `,
     cardBorderColor: "green",
 
-    socialGithubLink: "",
+    socialGithubLink: "https://github.com/utpalendubarman",
     socialLinkedinLink: "https://www.linkedin.com/in/utpalendubarman/",
     socialTwitterLink: "#",
   },
@@ -177,7 +177,7 @@ let excoreMemberDetails = [
     cardBorderColor: "red",
 
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/padmanabha-banerjee-b16800171/",
     socialTwitterLink: "#",
   },
   {
@@ -192,7 +192,7 @@ let excoreMemberDetails = [
     cardBorderColor: "blue",
 
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/imniladrimondal/",
     socialTwitterLink: "#",
   },
   {
@@ -207,7 +207,7 @@ let excoreMemberDetails = [
     cardBorderColor: "green",
 
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/tunnisha-das-gupta-a43231204/",
     socialTwitterLink: "#",
   },
   {
@@ -221,8 +221,8 @@ let excoreMemberDetails = [
                 `,
     cardBorderColor: "yellow",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/nisha331",
+    socialLinkedinLink: "https://www.linkedin.com/in/nisha-yadav-2950351ab/",
     socialTwitterLink: "#",
   },
   {
@@ -236,9 +236,9 @@ let excoreMemberDetails = [
                 `,
     cardBorderColor: "green",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/NuclearCactus",
+    socialLinkedinLink: "https://www.linkedin.com/in/nuclearcactus/",
+    socialTwitterLink: "https://twitter.com/NuclearCactus",
   },
   {
     id: 7,
@@ -251,7 +251,7 @@ let excoreMemberDetails = [
     cardBorderColor: "yellow",
 
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/shreya-paul-05a0a61aa/",
     socialTwitterLink: "#",
   },
   {
@@ -264,8 +264,8 @@ let excoreMemberDetails = [
                 `,
     cardBorderColor: "red",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/debapriya36",
+    socialLinkedinLink: "https://www.linkedin.com/in/debapriya-chandra-126114201/",
     socialTwitterLink: "#",
   },
   {
@@ -279,7 +279,7 @@ let excoreMemberDetails = [
     cardBorderColor: "blue",
 
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/vramaiah11/",
     socialTwitterLink: "#",
   },
   {
@@ -292,8 +292,8 @@ let excoreMemberDetails = [
                 `,
     cardBorderColor: "red",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/mahmood199",
+    socialLinkedinLink: "https://www.linkedin.com/in/mohammed-mahmood-ahmad-4b6609195/",
     socialTwitterLink: "#",
   },
   {
@@ -301,14 +301,14 @@ let excoreMemberDetails = [
     name: "Aman Prakash Jha",
     avatar: "../assets/img/team/Aman Prakash Jha.jfif",
     badges: `
-                    <span class="red">Web</span>
+                    <span class="red">Web</span>     
                     <span class="yellow">Flutter</span>
                     <span class="blue">Team</span>
                 `,
     cardBorderColor: "green",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/amanjha8100/",
+    socialLinkedinLink: "https://www.linkedin.com/in/aman-prakash-jha/",
     socialTwitterLink: "#",
   },
   {
@@ -323,7 +323,7 @@ let excoreMemberDetails = [
     cardBorderColor: "blue",
 
     socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialLinkedinLink: "https://www.linkedin.com/in/ayush-choudhury-611a43193/",
     socialTwitterLink: "#",
   },
   {
@@ -337,8 +337,8 @@ let excoreMemberDetails = [
                 `,
     cardBorderColor: "yellow",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/shibam-naskar",
+    socialLinkedinLink: "https://www.linkedin.com/in/shibam-naskar-601433203/",
     socialTwitterLink: "#",
   },
   {
@@ -352,9 +352,9 @@ let excoreMemberDetails = [
                 `,
     cardBorderColor: "blue",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
-    socialTwitterLink: "#",
+    socialGithubLink: "https://github.com/ZiaCodes",
+    socialLinkedinLink: "https://www.linkedin.com/in/ziacodes/",
+    socialTwitterLink: "https://twitter.com/Ziacodes",
   },
   {
     id: 15,
@@ -366,8 +366,8 @@ let excoreMemberDetails = [
                 `,
     cardBorderColor: "red",
 
-    socialGithubLink: "#",
-    socialLinkedinLink: "#",
+    socialGithubLink: "https://github.com/ImSagnik007",
+    socialLinkedinLink: "https://www.linkedin.com/in/sagnik-mitra/",
     socialTwitterLink: "#",
   },
 ];
