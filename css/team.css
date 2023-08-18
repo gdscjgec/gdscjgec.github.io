@@ -8,7 +8,7 @@ body {
 
 section#team div.team {
   position: relative;
-  margin: 10rem auto;
+  margin: 10rem auto 0;
   padding: 2rem;
 }
 
@@ -228,6 +228,18 @@ div.team .member .profile_card .social a i {
 div.team .member .profile_card .social a:hover i {
   transform: rotateY(1turn);
 }
+
+ /* ----------------Show Team----------- */
+ .show_team{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+ }
+ .show-team{
+  font-size: 2.2rem;
+  border-width: 2px;
+  padding: 0.5rem 1rem;
+ }
 
 /* ********************************* Responsive Media ********************************* */
 
