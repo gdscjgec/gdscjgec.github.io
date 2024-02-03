@@ -1,5 +1,7 @@
 /* ********************************* Home Page Styles ********************************* */
-
+body{
+  min-height: 100vh ;
+}
 .landing-wrapper {
   display: flex;
   align-items: center;
